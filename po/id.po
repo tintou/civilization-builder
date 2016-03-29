@@ -1,0 +1,917 @@
+# Indonesian translation for scratch
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-18 13:57-0600\n"
+"PO-Revision-Date: 2015-12-21 13:37+0000\n"
+"Last-Translator: Mario Guerriero <Unknown>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-22 04:51+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Scratch.vala:68
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Aaron Michael https://launchpad.net/~aacon\n"
+"  Ade Malsasa Akbar https://launchpad.net/~rockmania52\n"
+"  Dani Pratomo https://launchpad.net/~daneepee\n"
+"  Fahmi L. Ramdhani https://launchpad.net/~fahmilestianramdhani\n"
+"  Faizal Kusmawan https://launchpad.net/~faizalindrak\n"
+"  Ghiffary Thalib https://launchpad.net/~ghiffarythalib\n"
+"  Guz Firdaus https://launchpad.net/~guzfirdaus\n"
+"  Iswanto https://launchpad.net/~mcs-iswanto\n"
+"  Khalifa Visi Islami https://launchpad.net/~khalifavi\n"
+"  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+"  Moch. Afif https://launchpad.net/~mafifannisa\n"
+"  Ngalim Siregar https://launchpad.net/~ngalim-siregar-4\n"
+"  Risman Rangga Pratama https://launchpad.net/~imanrp\n"
+"  Rizal Muttaqin https://launchpad.net/~sundaralinux\n"
+"  Viko Adi Rahmawan https://launchpad.net/~vikoadi\n"
+"  dadanhrn https://launchpad.net/~dadanhrn\n"
+"  yulandi https://launchpad.net/~yulandi80"
+
+#: ../src/Scratch.vala:246
+msgid "New Tab"
+msgstr "Tab Baru"
+
+#: ../src/Scratch.vala:247 ../src/config.vala:18
+msgid "New Window"
+msgstr "Jendela Baru"
+
+#: ../src/Scratch.vala:248
+msgid "Print version info and exit"
+msgstr ""
+
+#: ../src/Scratch.vala:249
+msgid "Set of plugins"
+msgstr "Kumpulan pengaya"
+
+#: ../src/Scratch.vala:250
+msgid "Current working directory"
+msgstr ""
+
+#: ../src/config.vala:15
+msgid "Edit text files"
+msgstr "Sunting berkas teks"
+
+#: ../src/config.vala:16
+msgid "Text Editor"
+msgstr "Penyunting Teks"
+
+#: ../src/config.vala:17 ../src/Services/Document.vala:405
+msgid "New Document"
+msgstr "Dokumen Baru"
+
+#: ../src/config.vala:19
+msgid "About Scratch"
+msgstr ""
+
+#: ../src/Services/Document.vala:231
+msgid "Save changes to document %s before closing?"
+msgstr "Simpan perubahan dalam dokumane %s sebelum menutup?"
+
+#: ../src/Services/Document.vala:234
+msgid ""
+"If you don't save, changes from the last 4 seconds will be permanently lost."
+msgstr ""
+"Jika tidak Anda simpan, perubahan sejak 4 detik lalu akan hilang selamanya."
+
+#: ../src/Services/Document.vala:236
+msgid "Close without saving"
+msgstr "Tutup tanpa menyimpan"
+
+#: ../src/Services/Document.vala:240 ../src/Utils.vala:29
+msgid "Cancel"
+msgstr ""
+
+#: ../src/Services/Document.vala:241 ../src/Services/Document.vala:546
+#: ../src/Utils.vala:33 ../src/MainWindow.vala:897
+msgid "Save"
+msgstr "Simpan"
+
+#: ../src/Services/Document.vala:313
+msgid "Save File"
+msgstr "Simpan File"
+
+#: ../src/Services/Document.vala:521
+msgid ""
+"File \"%s\" cannot be read. Maybe it is corrupt\n"
+"or you do not have the necessary permissions to read it."
+msgstr ""
+
+#: ../src/Services/Document.vala:537
+msgid ""
+"The location containing the file \"%s\" was unmounted. Do you want to save "
+"somewhere else?"
+msgstr ""
+
+#: ../src/Services/Document.vala:539 ../src/MainWindow.vala:901
+msgid "Save As…"
+msgstr ""
+
+#: ../src/Services/Document.vala:544
+msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgstr ""
+
+#: ../src/Services/Document.vala:557
+msgid ""
+"You cannot save changes on file \"%s\". Do you want to save the changes to "
+"this file in a different location?"
+msgstr ""
+
+#: ../src/Services/Document.vala:559
+msgid "Save changes elsewhere"
+msgstr "Simpan perubahan di lain tempat"
+
+#: ../src/Services/Document.vala:590
+msgid ""
+"File \"%s\" was modified by an external application. Do you want to load it "
+"again or continue your editing?"
+msgstr ""
+
+#: ../src/Services/Document.vala:591
+msgid "Load"
+msgstr "Memuat"
+
+#: ../src/Services/Document.vala:594
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#: ../src/Services/TemplateManager.vala:194 ../src/MainWindow.vala:905
+msgid "Templates"
+msgstr "Palet"
+
+#: ../src/Widgets/DocumentView.vala:91
+msgid "Text file from "
+msgstr ""
+
+#: ../src/Widgets/SourceView.vala:120
+msgid "Syntax Highlighting"
+msgstr "Sorot Sintaksi"
+
+#: ../src/Widgets/SourceView.vala:131
+msgid "Normal Text"
+msgstr "Teks Normal"
+
+#: ../src/Widgets/LoadingView.vala:33
+msgid "Wait while restoring last session..."
+msgstr "Mohon tunggu, sedang mengembalikan sesi sebelumnya…"
+
+#: ../src/Widgets/SearchManager.vala:70
+msgid "Find"
+msgstr "Temukan"
+
+#: ../src/Widgets/SearchManager.vala:75
+msgid "Replace With"
+msgstr "Ganti Dengan"
+
+#: ../src/Widgets/SearchManager.vala:91
+msgid "Search next"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:97
+msgid "Search previous"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:104
+msgid "Cyclic Search"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:107 ../src/MainWindow.vala:849
+#: ../src/MainWindow.vala:850
+msgid "Replace"
+msgstr "Ganti"
+
+#: ../src/Widgets/SearchManager.vala:112
+msgid "Replace all"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:121
+msgid "Go To Line:"
+msgstr "Tuju Baris:"
+
+#: ../src/Widgets/ToolBar.vala:58
+msgid "Share"
+msgstr "Bagikan"
+
+#: ../src/Widgets/SplitView.vala:45
+msgid "No Files Open"
+msgstr "Tidak Ada Berkas yang Terbuka"
+
+#: ../src/Widgets/SplitView.vala:46
+msgid "Open a file to begin editing."
+msgstr "Buka sebuah berkas untuk mulai menyunting."
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "New file"
+msgstr "Berkas baru"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "Create a new empty file."
+msgstr "Buat sebuah berkas kosong."
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open file"
+msgstr "Buka berkas"
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open a saved file."
+msgstr "Buka berkas tersimpan."
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "New file from clipboard"
+msgstr ""
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "Create a new file from the contents of your clipboard."
+msgstr ""
+
+#: ../src/Dialogs/PreferencesDialog.vala:50 ../src/MainWindow.vala:909
+msgid "Preferences"
+msgstr "Pengaturan"
+
+#: ../src/Dialogs/PreferencesDialog.vala:63
+msgid "Behavior"
+msgstr "Perilaku"
+
+#: ../src/Dialogs/PreferencesDialog.vala:66
+msgid "Interface"
+msgstr "Antarmuka"
+
+#: ../src/Dialogs/PreferencesDialog.vala:79
+msgid "Extensions"
+msgstr "Ekstensi"
+
+#: ../src/Dialogs/PreferencesDialog.vala:83 ../src/MainWindow.vala:845
+#: ../src/MainWindow.vala:846
+msgid "Close"
+msgstr "Tutup"
+
+#: ../src/Dialogs/PreferencesDialog.vala:128
+msgid "Show welcome screen"
+msgstr "Tampilkan layar penyambut"
+
+#: ../src/Dialogs/PreferencesDialog.vala:129
+msgid "Show last open tabs"
+msgstr "Tampilkan tab terbuka terakhir"
+
+#: ../src/Dialogs/PreferencesDialog.vala:145
+msgid "General:"
+msgstr "Umum:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:151
+msgid "When Scratch starts:"
+msgstr "Saat Scratch jalan:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:154
+msgid "Save files when changed:"
+msgstr "Simpan berkas ketika diubah:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:158
+msgid "Tabs:"
+msgstr "Tab:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:163
+msgid "Automatic indentation:"
+msgstr "Indentasi otomatis:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:166
+msgid "Insert spaces instead of tabs:"
+msgstr "Sisipkan spasi, bukan tab:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:170
+msgid "Tab width:"
+msgstr "Lebar tab:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:195
+msgid "Editor:"
+msgstr "Penyunting:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:213
+msgid "Highlight current line:"
+msgstr "Sorot baris sekarang:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:214
+msgid "Highlight matching brackets:"
+msgstr "Sorot yang cocok dengan tanda kurung:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:215
+msgid "Line wrap:"
+msgstr ""
+
+#: ../src/Dialogs/PreferencesDialog.vala:216
+msgid "Draw spaces:"
+msgstr "Tarik spasi:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:217
+msgid "Show line numbers:"
+msgstr "Tampilkan nomor baris:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:219
+msgid "Line width guide:"
+msgstr "Pedoman lebar baris:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:233
+msgid "Font and Color Scheme:"
+msgstr "Huruf dan Skema Warna:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:247
+msgid "Select font:"
+msgstr "Pilih huruf:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:250
+msgid "Color scheme:"
+msgstr "Skema warna:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:255
+msgid "Custom font:"
+msgstr "Huruf pilihan:"
+
+#: ../src/Utils.vala:31 ../src/MainWindow.vala:885
+#: ../plugins/filemanager/FileView.vala:230
+msgid "Open"
+msgstr "Buka"
+
+#: ../src/Utils.vala:42
+msgid "All files"
+msgstr "Semua berkas"
+
+#: ../src/Utils.vala:45
+msgid "Text files"
+msgstr "Berkas teks"
+
+#: ../src/MainWindow.vala:97
+msgid "Zeitgeist Datasource for Scratch"
+msgstr "Sumber data Zeitgeist untuk Scratch"
+
+#: ../src/MainWindow.vala:179
+msgid "Trash"
+msgstr "Tong Sampah"
+
+#: ../src/MainWindow.vala:662
+msgid "Open some files"
+msgstr "Buka beberapa file"
+
+#: ../src/MainWindow.vala:771
+msgid "Hide search bar"
+msgstr "Sembunyikan bilah cari"
+
+#: ../src/MainWindow.vala:774 ../src/MainWindow.vala:938
+#: ../src/MainWindow.vala:939
+msgid "Find…"
+msgstr "Cari..."
+
+#: ../src/MainWindow.vala:837 ../src/MainWindow.vala:838
+msgid "Go to line…"
+msgstr "Loncat ke baris…"
+
+#: ../src/MainWindow.vala:841 ../src/MainWindow.vala:842
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../src/MainWindow.vala:853
+msgid "Reopen closed document"
+msgstr "Buka kembali dokumen yang ditutup"
+
+#: ../src/MainWindow.vala:854
+msgid "Open last closed document in a new tab"
+msgstr "Buka dokumen yang terakhir ditutup di tab baru"
+
+#: ../src/MainWindow.vala:857
+msgid "Add New Tab"
+msgstr "Tambah Tab Baru"
+
+#: ../src/MainWindow.vala:858
+msgid "Add a new tab"
+msgstr "Tambah tab baru"
+
+#: ../src/MainWindow.vala:861
+msgid "Add New View"
+msgstr "Tambah Tinjauan Baru"
+
+#: ../src/MainWindow.vala:862
+msgid "Add a new view"
+msgstr "Tambah tinjauan baru"
+
+#: ../src/MainWindow.vala:865
+msgid "Remove Current View"
+msgstr "Singkirkan Tinjauan Tertampil"
+
+#: ../src/MainWindow.vala:866
+msgid "Remove this view"
+msgstr "Singkirkan tinjauan ini"
+
+#: ../src/MainWindow.vala:869
+msgid "Undo"
+msgstr "Batalkan"
+
+#: ../src/MainWindow.vala:870
+msgid "Undo the last action"
+msgstr "Batalkan aksi terakhir"
+
+#: ../src/MainWindow.vala:873
+msgid "Redo"
+msgstr "Ulangi"
+
+#: ../src/MainWindow.vala:874
+msgid "Redo the last undone action"
+msgstr "Ulangi pembatalan terakhir"
+
+#: ../src/MainWindow.vala:877
+msgid "Revert"
+msgstr "Pulihkan"
+
+#: ../src/MainWindow.vala:878
+msgid "Restore this file"
+msgstr "Pulihkan berkas ini"
+
+#: ../src/MainWindow.vala:881 ../src/MainWindow.vala:882
+msgid "Duplicate selected strings"
+msgstr "Gandakan karakter terpilih"
+
+#: ../src/MainWindow.vala:886
+msgid "Open a file"
+msgstr "Buka berkas"
+
+#: ../src/MainWindow.vala:889
+msgid "Clipboard"
+msgstr ""
+
+#: ../src/MainWindow.vala:890
+msgid "New file from Clipboard"
+msgstr ""
+
+#: ../src/MainWindow.vala:893
+msgid "Zoom"
+msgstr ""
+
+#: ../src/MainWindow.vala:894
+msgid "Zoom 1:1"
+msgstr ""
+
+#: ../src/MainWindow.vala:898
+msgid "Save this file"
+msgstr ""
+
+#: ../src/MainWindow.vala:902
+msgid "Save this file with a different name"
+msgstr ""
+
+#: ../src/MainWindow.vala:906
+msgid "Project templates"
+msgstr "Palet proyek"
+
+#: ../src/MainWindow.vala:910
+msgid "Change Scratch settings"
+msgstr "Ubah pengaturan Scratch"
+
+#: ../src/MainWindow.vala:913 ../src/MainWindow.vala:914
+msgid "Next Tab"
+msgstr ""
+
+#: ../src/MainWindow.vala:917 ../src/MainWindow.vala:918
+msgid "Previous Tab"
+msgstr ""
+
+#: ../src/MainWindow.vala:934 ../src/MainWindow.vala:935
+msgid "Fullscreen"
+msgstr "Layar Penuh"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:21
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:21
+msgid "Folder Manager"
+msgstr "Daftar Isi Folder"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:22
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:22
+msgid "Basic folder manager with file browsing"
+msgstr "Dapat mendaftar seluruh isi folder"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:71
+msgid "Go to parent"
+msgstr ""
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:82
+msgid "Add file"
+msgstr "Tambah berkas"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:89
+msgid "Remove file"
+msgstr "Hapus Berkas"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:104
+msgid "File Manager"
+msgstr "Pengelola Berkas"
+
+#: ../plugins/filemanager/FileView.vala:73
+msgid "/New File"
+msgstr "/Berkas Baru"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:24
+msgid "Preserve Indent"
+msgstr ""
+
+#: ../plugins/preserve-indent/preserve-indent.vala:25
+msgid "Maintains indent level of pasted text when auto-indent is active"
+msgstr ""
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:21
+msgid "Highlight Selected Words"
+msgstr ""
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:22
+msgid "Highlights all occurrences of words that are selected"
+msgstr ""
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:21
+#: ../plugins/clipboard-history/ClipboardHistory.vala:89
+msgid "Clipboard History"
+msgstr ""
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:22
+msgid "Clipboard to view history"
+msgstr ""
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:28
+msgid "..."
+msgstr ""
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:156
+msgid "Delete"
+msgstr ""
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:159
+#: ../plugins/terminal/terminal.vala:313
+msgid "Paste"
+msgstr "Tempel"
+
+#: ../plugins/browser-preview/BrowserView.vala:49
+msgid "Close Inspector"
+msgstr ""
+
+#: ../plugins/browser-preview/browser-preview.vala:21
+msgid "Browser Preview"
+msgstr "Pratayang Peramban"
+
+#: ../plugins/browser-preview/browser-preview.vala:22
+msgid "Get a preview your work in a web page"
+msgstr "tampilkan preview berkas web yang anda edti"
+
+#: ../plugins/browser-preview/browser-preview.vala:85
+#: ../plugins/browser-preview/browser-preview.vala:111
+msgid "Show Preview"
+msgstr ""
+
+#: ../plugins/browser-preview/browser-preview.vala:107
+#: ../plugins/browser-preview/browser-preview.vala:150
+msgid "Web Preview"
+msgstr ""
+
+#: ../plugins/browser-preview/browser-preview.vala:108
+msgid "Hide Preview"
+msgstr ""
+
+#: ../plugins/contractor/contractor.vala:21
+msgid "Share your files with Contractor"
+msgstr "Bagikan berkas anda dengan Contractor"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:70
+msgid "Folders"
+msgstr "Folder"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:88
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:89
+msgid "Open a folder"
+msgstr "Buka Folder"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:94
+msgid "_Cancel"
+msgstr ""
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:95
+msgid "_Open"
+msgstr ""
+
+#: ../plugins/folder-manager/FileView.vala:294
+msgid "Close Folder"
+msgstr "Tutup Folder"
+
+#: ../plugins/outline/OutlinePlugin.vala:21
+msgid "Outline"
+msgstr ""
+
+#: ../plugins/outline/OutlinePlugin.vala:22
+msgid "Outline symbols in your current file in vala"
+msgstr ""
+
+#: ../plugins/outline/OutlinePlugin.vala:111
+#: ../plugins/outline/CtagsSymbolResolver.vala:35
+#: ../plugins/outline/CtagsSymbolResolver.vala:68
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:21
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:94
+msgid "Symbols"
+msgstr ""
+
+#: ../plugins/brackets-completion/brackets-completion.vala:21
+msgid "Brackets Completion"
+msgstr "Pelengkap tanda kurung otomatis"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:22
+msgid "Complete brackets while typing"
+msgstr "Menutup tanda kurung yang anda buat secara otomatis"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:20
+#: ../plugins/source-tree/SourceTreePlugin.vala:197
+msgid "Source Tree"
+msgstr "Pohon Berkas"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:21
+msgid "Have a look at your sources organized in a nice tree"
+msgstr "tampilkan semua kode sumber anda dalam pohon berkas"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:42
+msgid "Loading..."
+msgstr "Sedang memuat..."
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:175
+msgid "Bookmark"
+msgstr "Penanda"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:234
+msgid "Files"
+msgstr "Berkas"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:235
+msgid "Project"
+msgstr "Proyek"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:236
+msgid "Bookmarks"
+msgstr "Penanda"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:21
+msgid "Vim Emulation"
+msgstr "Emulasi Vim"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:22
+msgid "Use Vim commands in Scratch"
+msgstr "Gunakan perintah Vim dalam Scratch"
+
+#: ../plugins/pastebin/pastebin.vala:23
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:24
+msgid "Share files with pastebin service"
+msgstr "Bagi berkas melalui layanan pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:134
+msgid "Upload to Pastebin"
+msgstr "Unggah ke Pastebin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:254
+msgid "Share via PasteBin"
+msgstr "Bagikan melalui PasteBin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:272
+msgid "Name:"
+msgstr "Nama:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:278
+msgid "Format: "
+msgstr "Format: "
+
+#: ../plugins/pastebin/pastebin_dialog.vala:280
+msgid "Others..."
+msgstr "Lainnya..."
+
+#: ../plugins/pastebin/pastebin_dialog.vala:305
+msgid "Expiry time:"
+msgstr "Jangka kadaluarsa:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:310
+msgid "Keep this paste private"
+msgstr "Jaga kerahasiaan tempelan ini"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:312
+msgid "Upload"
+msgstr "Unggah"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:342
+msgid "Other formats"
+msgstr "Format lain"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:511
+msgid "Never"
+msgstr "Jangan Pernah"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:512
+msgid "Ten minutes"
+msgstr "Sepuluh menit"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:513
+msgid "One hour"
+msgstr "Satu jam"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:514
+msgid "One day"
+msgstr "Satu hari"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:515
+msgid "One month"
+msgstr "Satu bulan"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:18
+msgid "Strip trailing whitespace"
+msgstr "Hapus spasi dan tab dibelakang baris"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:19
+msgid "Strip trailing whitespace on save"
+msgstr "Hapus spasi dan tab di belakan baris saat menyimpan"
+
+#: ../plugins/spell/spell.vala:18
+msgid "Spell Checker"
+msgstr "Pemeriksa Ejaan"
+
+#: ../plugins/spell/spell.vala:19
+msgid "Checks the spelling of your documents"
+msgstr "Memeriksa ejaan"
+
+#: ../plugins/open-with/open-with.vala:21
+msgid "Open With"
+msgstr "Buka Dengan"
+
+#: ../plugins/open-with/open-with.vala:22
+msgid "Open files you are editing with another application"
+msgstr "Buka berkas yang anda olah dengan aplikasi lain"
+
+#: ../plugins/open-with/open-with.vala:54
+msgid "Open With…"
+msgstr ""
+
+#: ../plugins/detect-indent/detect-indent.vala:1
+msgid "Detect Indent"
+msgstr ""
+
+#: ../plugins/detect-indent/detect-indent.vala:2
+msgid "Heuristically detect tab or space settings"
+msgstr ""
+
+#: ../plugins/terminal/terminal.vala:23 ../plugins/terminal/terminal.vala:116
+#: ../plugins/terminal/terminal.vala:125 ../plugins/terminal/terminal.vala:172
+#: ../plugins/terminal/terminal.vala:174
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.vala:24
+msgid "A terminal in your text editor"
+msgstr "Terminal dalam pengolah teks"
+
+#: ../plugins/terminal/terminal.vala:167 ../plugins/terminal/terminal.vala:178
+msgid "Show Terminal"
+msgstr ""
+
+#: ../plugins/terminal/terminal.vala:170
+msgid "Hide Terminal"
+msgstr ""
+
+#: ../plugins/terminal/terminal.vala:306
+msgid "Copy"
+msgstr "Salin"
+
+#: ../plugins/terminal/terminal.vala:323
+msgid "Terminal on Right"
+msgstr ""
+
+#: ../plugins/terminal/terminal.vala:331
+msgid "Terminal on Bottom"
+msgstr ""
+
+#: ../plugins/word-completion/plugin.vala:34
+msgid "Words Completion"
+msgstr "Pelengkap kata otomatis"
+
+#: ../plugins/word-completion/plugin.vala:35
+msgid "Show a completion dialog with most used words from your files"
+msgstr ""
+"Menampilakn kata yang sering muncul untuk memudahkan menulis kata yang "
+"berulang"
+
+#: ../plugins/word-completion/plugin.vala:175
+msgid "%s - Word Completion"
+msgstr "%s - Pelengkap kata otomatis"
+
+#: ../plugins/word-completion/completion-provider.vala:80
+msgid "Could not load icon theme: %s\n"
+msgstr "Tak dapat membuka tema ikon:%s\n"
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Anda ingin menyimpan perubahan sebelum menutup berkas ini?"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Buat dokumen baru di tab baru"
+
+#~ msgid "New document"
+#~ msgstr "Dokumen baru"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Buat dokumen baru dari palet"
+
+#~ msgid "Previous Search"
+#~ msgstr "Pencarian Sebelumnya"
+
+#~ msgid "Next Search"
+#~ msgstr "Pencarian Berikutnya"
+
+#~ msgid "Save as"
+#~ msgstr "Simpan sebagai"
+
+#~ msgid "No files are open."
+#~ msgstr "Tidak ada berkas yang terbuka."
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Panel Bawah"
+
+#~ msgid "Status Bar"
+#~ msgstr "Bilah Status"
+
+#~ msgid "Context View"
+#~ msgstr "Tinjauan Konteks"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Tampilkan margin di kanan:"
+
+#~ msgid "Margin width:"
+#~ msgstr "Lebar margin:"
+
+#~ msgid "Find..."
+#~ msgstr "Temukan..."
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Anda ingin memuat ulang ini?"
+
+#~ msgid "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Apakah anda ingin menyimpan berkas ini di tempat yang berbeda?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Apakah Anda ingin membuatnya lagi?"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argumen untuk kumpulan pengaya"
+
+#~ msgid "Save the current file"
+#~ msgstr "Simpan berkas tertampil"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Simpan berkas tertampil dalam nama lain"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Pilih lokasi yang baru"
+
+#~ msgid "Normal text"
+#~ msgstr "Teks biasa"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Simpan perubahan tak tersimpan ke berkas sebelum meutup?"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Anda tak dapat menyimpan perubahan di:"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Perubahan berkas ini belum tersimpan."
+
+#~ msgid "Create a new instance"
+#~ msgstr "Buat contoh baru"
+
+#~ msgid "Go to line..."
+#~ msgstr "Tuju baris..."
+
+#~ msgid "There are unsaved changes in Scratch!"
+#~ msgstr "Ada perubahan yang tak tersimpan di Scratch!"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Ada perubahan yang tak tersimpan!"
+
+#, c-format
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "Simpan perubahan yang belum tersimpan dalam %s sebelum menutup?"
+
+#, c-format
+#~ msgid "The file %s was modified."
+#~ msgstr "Berkas %s telah diubah."
+
+#~ msgid "Sidebar"
+#~ msgstr "Bilah Samping"
+
+#, c-format
+#~ msgid "The file %s was deleted."
+#~ msgstr "Berkas %s telah dihapus."

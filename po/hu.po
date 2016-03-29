@@ -1,0 +1,923 @@
+# Hungarian translation for scratch
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-18 13:57-0600\n"
+"PO-Revision-Date: 2015-12-20 14:51+0000\n"
+"Last-Translator: Mario Guerriero <Unknown>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-21 05:19+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Scratch.vala:68
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  András Bognár https://launchpad.net/~bognarandras-deactivatedaccount1\n"
+"  Balázs Kóti https://launchpad.net/~ktibalazs\n"
+"  Bence Lukács https://launchpad.net/~lukacs-bence1\n"
+"  Csonka Bálint https://launchpad.net/~balint777\n"
+"  Dienes Tamás https://launchpad.net/~mith88\n"
+"  Felix https://launchpad.net/~hututorials\n"
+"  Gyönki Bendegúz https://launchpad.net/~gyonkibendeguz\n"
+"  Janos Meszaros https://launchpad.net/~janez89\n"
+"  Laszlo Espadas https://launchpad.net/~kardi-web\n"
+"  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+"  Mark Lutring https://launchpad.net/~marcus-elitemail\n"
+"  Papp Ferenc https://launchpad.net/~pappfer\n"
+"  Riczu Ádám https://launchpad.net/~riczu-adam\n"
+"  Translation Bot https://launchpad.net/~iscreamd\n"
+"  moonwatcher https://launchpad.net/~moonwatcher2k1"
+
+#: ../src/Scratch.vala:246
+msgid "New Tab"
+msgstr "Új lap"
+
+#: ../src/Scratch.vala:247 ../src/config.vala:18
+msgid "New Window"
+msgstr "Új ablak"
+
+#: ../src/Scratch.vala:248
+msgid "Print version info and exit"
+msgstr "Verzióinformáció kiírása és kilépés"
+
+#: ../src/Scratch.vala:249
+msgid "Set of plugins"
+msgstr "Bővítménykészlet"
+
+#: ../src/Scratch.vala:250
+msgid "Current working directory"
+msgstr "Aktuális munkakönyvtár"
+
+#: ../src/config.vala:15
+msgid "Edit text files"
+msgstr "Szövegfájlok szerkesztése"
+
+#: ../src/config.vala:16
+msgid "Text Editor"
+msgstr "Szövegszerkesztő"
+
+#: ../src/config.vala:17 ../src/Services/Document.vala:405
+msgid "New Document"
+msgstr "Új dokumentum"
+
+#: ../src/config.vala:19
+msgid "About Scratch"
+msgstr "A Scratch névjegye"
+
+#: ../src/Services/Document.vala:231
+msgid "Save changes to document %s before closing?"
+msgstr "Menti a változtatásokat a(z) %s dokumentumba bezárás előtt?"
+
+#: ../src/Services/Document.vala:234
+msgid ""
+"If you don't save, changes from the last 4 seconds will be permanently lost."
+msgstr ""
+"Ha nem menti, akkor az elmúlt 4 másodpercben történt változások véglegesen "
+"elvesznek."
+
+#: ../src/Services/Document.vala:236
+msgid "Close without saving"
+msgstr "Bezárás mentés nélkül"
+
+#: ../src/Services/Document.vala:240 ../src/Utils.vala:29
+msgid "Cancel"
+msgstr "Mégse"
+
+#: ../src/Services/Document.vala:241 ../src/Services/Document.vala:546
+#: ../src/Utils.vala:33 ../src/MainWindow.vala:897
+msgid "Save"
+msgstr "Mentés"
+
+#: ../src/Services/Document.vala:313
+msgid "Save File"
+msgstr "Fájl mentése"
+
+#: ../src/Services/Document.vala:521
+msgid ""
+"File \"%s\" cannot be read. Maybe it is corrupt\n"
+"or you do not have the necessary permissions to read it."
+msgstr ""
+"\"%s\" nem olvasható. Lehet, hogy sérült,\n"
+"vagy nincs megfelelő jogosultsága az olvasásához."
+
+#: ../src/Services/Document.vala:537
+msgid ""
+"The location containing the file \"%s\" was unmounted. Do you want to save "
+"somewhere else?"
+msgstr ""
+"A \"%s\"-t tartalmazó hely leválasztásra került. Szeretné valahova máshová "
+"menteni?"
+
+#: ../src/Services/Document.vala:539 ../src/MainWindow.vala:901
+msgid "Save As…"
+msgstr "Mentés másként…"
+
+#: ../src/Services/Document.vala:544
+msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgstr "\"%s\" törölve lett. Szeretné mégis menteni?"
+
+#: ../src/Services/Document.vala:557
+msgid ""
+"You cannot save changes on file \"%s\". Do you want to save the changes to "
+"this file in a different location?"
+msgstr ""
+"Nem menthetők a \"%s\" fájlon végzett módosítások. Szeretné a fájl "
+"módosításait egy másik helyre menteni?"
+
+#: ../src/Services/Document.vala:559
+msgid "Save changes elsewhere"
+msgstr "Változtatások mentése máshova"
+
+#: ../src/Services/Document.vala:590
+msgid ""
+"File \"%s\" was modified by an external application. Do you want to load it "
+"again or continue your editing?"
+msgstr ""
+"A \"%s\" fájl módosítva lett egy külső alkalmazásból. Szeretné újratölteni, "
+"vagy folytatja a szerkesztést?"
+
+#: ../src/Services/Document.vala:591
+msgid "Load"
+msgstr "Betöltés"
+
+#: ../src/Services/Document.vala:594
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../src/Services/TemplateManager.vala:194 ../src/MainWindow.vala:905
+msgid "Templates"
+msgstr "Sablonok"
+
+#: ../src/Widgets/DocumentView.vala:91
+msgid "Text file from "
+msgstr "Szöveges fájl innen: "
+
+#: ../src/Widgets/SourceView.vala:120
+msgid "Syntax Highlighting"
+msgstr "Szintaxiskiemelés:"
+
+#: ../src/Widgets/SourceView.vala:131
+msgid "Normal Text"
+msgstr "Normál szöveg"
+
+#: ../src/Widgets/LoadingView.vala:33
+msgid "Wait while restoring last session..."
+msgstr "Utolsó munkamenet visszaállítása..."
+
+#: ../src/Widgets/SearchManager.vala:70
+msgid "Find"
+msgstr "Keresés"
+
+#: ../src/Widgets/SearchManager.vala:75
+msgid "Replace With"
+msgstr "Csere ezzel"
+
+#: ../src/Widgets/SearchManager.vala:91
+msgid "Search next"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:97
+msgid "Search previous"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:104
+msgid "Cyclic Search"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:107 ../src/MainWindow.vala:849
+#: ../src/MainWindow.vala:850
+msgid "Replace"
+msgstr "Csere"
+
+#: ../src/Widgets/SearchManager.vala:112
+msgid "Replace all"
+msgstr "Mindet cseréli"
+
+#: ../src/Widgets/SearchManager.vala:121
+msgid "Go To Line:"
+msgstr "Ugrás erre a sorra:"
+
+#: ../src/Widgets/ToolBar.vala:58
+msgid "Share"
+msgstr "Megosztás"
+
+#: ../src/Widgets/SplitView.vala:45
+msgid "No Files Open"
+msgstr "Nincs megnyitott fájl"
+
+#: ../src/Widgets/SplitView.vala:46
+msgid "Open a file to begin editing."
+msgstr "A szerkesztés megkezdéséhez nyisson meg egy fájlt."
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "New file"
+msgstr "Új fájl"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "Create a new empty file."
+msgstr "Üres fájl létrehozása."
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open file"
+msgstr "Fájl megnyitása"
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open a saved file."
+msgstr "Mentett fájl megnyitása."
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "New file from clipboard"
+msgstr "Új fájl a vágólapról"
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "Create a new file from the contents of your clipboard."
+msgstr "Fájl létrehozása a vágólap tartalmából."
+
+#: ../src/Dialogs/PreferencesDialog.vala:50 ../src/MainWindow.vala:909
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../src/Dialogs/PreferencesDialog.vala:63
+msgid "Behavior"
+msgstr "Viselkedés"
+
+#: ../src/Dialogs/PreferencesDialog.vala:66
+msgid "Interface"
+msgstr "Felület"
+
+#: ../src/Dialogs/PreferencesDialog.vala:79
+msgid "Extensions"
+msgstr "Bővítmények"
+
+#: ../src/Dialogs/PreferencesDialog.vala:83 ../src/MainWindow.vala:845
+#: ../src/MainWindow.vala:846
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../src/Dialogs/PreferencesDialog.vala:128
+msgid "Show welcome screen"
+msgstr "Üdvözlőképernyő megjelenítése"
+
+#: ../src/Dialogs/PreferencesDialog.vala:129
+msgid "Show last open tabs"
+msgstr "Legutóbbi lapok megjelenítése"
+
+#: ../src/Dialogs/PreferencesDialog.vala:145
+msgid "General:"
+msgstr "Általános:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:151
+msgid "When Scratch starts:"
+msgstr "Scratch indításakor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:154
+msgid "Save files when changed:"
+msgstr "Fájlok mentése változtatáskor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:158
+msgid "Tabs:"
+msgstr "Tabulátorok:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:163
+msgid "Automatic indentation:"
+msgstr "Automatikus behúzás:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:166
+msgid "Insert spaces instead of tabs:"
+msgstr "Szóközök beillesztése tabulátorok helyett:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:170
+msgid "Tab width:"
+msgstr "Tabulátor szélessége:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:195
+msgid "Editor:"
+msgstr "Szerkesztő:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:213
+msgid "Highlight current line:"
+msgstr "Jelenlegi sor kiemelése:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:214
+msgid "Highlight matching brackets:"
+msgstr "Zárójelpárok kiemelése:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:215
+msgid "Line wrap:"
+msgstr "Sortörés:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:216
+msgid "Draw spaces:"
+msgstr "Szóközök berajzolása:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:217
+msgid "Show line numbers:"
+msgstr "Sorok számának megjelenítése:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:219
+msgid "Line width guide:"
+msgstr "Vonalvastagság útmutató:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:233
+msgid "Font and Color Scheme:"
+msgstr "Betűkészlet- és színséma:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:247
+msgid "Select font:"
+msgstr "Betűtípus:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:250
+msgid "Color scheme:"
+msgstr "Színséma:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:255
+msgid "Custom font:"
+msgstr "Egyéni betűtípus:"
+
+#: ../src/Utils.vala:31 ../src/MainWindow.vala:885
+#: ../plugins/filemanager/FileView.vala:230
+msgid "Open"
+msgstr "Megnyitás"
+
+#: ../src/Utils.vala:42
+msgid "All files"
+msgstr "Minden fájl"
+
+#: ../src/Utils.vala:45
+msgid "Text files"
+msgstr "Szövegfájlok"
+
+#: ../src/MainWindow.vala:97
+msgid "Zeitgeist Datasource for Scratch"
+msgstr "Zeitgeist adatforrás a Scratch számára"
+
+#: ../src/MainWindow.vala:179
+msgid "Trash"
+msgstr "Törölt elemek"
+
+#: ../src/MainWindow.vala:662
+msgid "Open some files"
+msgstr "Nyisson meg fájlokat"
+
+#: ../src/MainWindow.vala:771
+msgid "Hide search bar"
+msgstr "Keresődoboz elrejtése"
+
+#: ../src/MainWindow.vala:774 ../src/MainWindow.vala:938
+#: ../src/MainWindow.vala:939
+msgid "Find…"
+msgstr "Keresés…"
+
+#: ../src/MainWindow.vala:837 ../src/MainWindow.vala:838
+msgid "Go to line…"
+msgstr "Ugrás a sorhoz..."
+
+#: ../src/MainWindow.vala:841 ../src/MainWindow.vala:842
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../src/MainWindow.vala:853
+msgid "Reopen closed document"
+msgstr "Bezárt dokumentum újranyitása"
+
+#: ../src/MainWindow.vala:854
+msgid "Open last closed document in a new tab"
+msgstr "Az utoljára bezárt dokumentum megnyitása új lapon"
+
+#: ../src/MainWindow.vala:857
+msgid "Add New Tab"
+msgstr "Új lap hozzáadása"
+
+#: ../src/MainWindow.vala:858
+msgid "Add a new tab"
+msgstr "Új lap hozzáadása"
+
+#: ../src/MainWindow.vala:861
+msgid "Add New View"
+msgstr "Új lapcsoport hozzáadása"
+
+#: ../src/MainWindow.vala:862
+msgid "Add a new view"
+msgstr "Egy új lapcsoport hozzáadása"
+
+#: ../src/MainWindow.vala:865
+msgid "Remove Current View"
+msgstr "Jelenlegi lapcsoport eltávolítása"
+
+#: ../src/MainWindow.vala:866
+msgid "Remove this view"
+msgstr "Ezen lapcsoport eltávolítása"
+
+#: ../src/MainWindow.vala:869
+msgid "Undo"
+msgstr "Visszavonás"
+
+#: ../src/MainWindow.vala:870
+msgid "Undo the last action"
+msgstr "Utolsó művelet visszavonása"
+
+#: ../src/MainWindow.vala:873
+msgid "Redo"
+msgstr "Mégis"
+
+#: ../src/MainWindow.vala:874
+msgid "Redo the last undone action"
+msgstr "A visszavont művelet ismételt végrehajtása"
+
+#: ../src/MainWindow.vala:877
+msgid "Revert"
+msgstr "Visszaállítás"
+
+#: ../src/MainWindow.vala:878
+msgid "Restore this file"
+msgstr "Ezen fájl visszaállítása"
+
+#: ../src/MainWindow.vala:881 ../src/MainWindow.vala:882
+msgid "Duplicate selected strings"
+msgstr "Kiválasztott karakterláncok kettőzése"
+
+#: ../src/MainWindow.vala:886
+msgid "Open a file"
+msgstr "Fájl megnyitása"
+
+#: ../src/MainWindow.vala:889
+msgid "Clipboard"
+msgstr "Vágólap"
+
+#: ../src/MainWindow.vala:890
+msgid "New file from Clipboard"
+msgstr "Új fájl a vágólapról"
+
+#: ../src/MainWindow.vala:893
+msgid "Zoom"
+msgstr "Nagyítás"
+
+#: ../src/MainWindow.vala:894
+msgid "Zoom 1:1"
+msgstr "Nagyítás 1:1"
+
+#: ../src/MainWindow.vala:898
+msgid "Save this file"
+msgstr "Fájl mentése"
+
+#: ../src/MainWindow.vala:902
+msgid "Save this file with a different name"
+msgstr "Fájl mentés más néven"
+
+#: ../src/MainWindow.vala:906
+msgid "Project templates"
+msgstr "Projektsablonok"
+
+#: ../src/MainWindow.vala:910
+msgid "Change Scratch settings"
+msgstr "Scratch beállításainak módosítása"
+
+#: ../src/MainWindow.vala:913 ../src/MainWindow.vala:914
+msgid "Next Tab"
+msgstr "Következő lap"
+
+#: ../src/MainWindow.vala:917 ../src/MainWindow.vala:918
+msgid "Previous Tab"
+msgstr "Előző lap"
+
+#: ../src/MainWindow.vala:934 ../src/MainWindow.vala:935
+msgid "Fullscreen"
+msgstr "Teljes képernyő"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:21
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:21
+msgid "Folder Manager"
+msgstr "Mappakezelő"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:22
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:22
+msgid "Basic folder manager with file browsing"
+msgstr "Egyszerű mappakezelő fájlböngészővel"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:71
+msgid "Go to parent"
+msgstr "Ugrás a szülőre"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:82
+msgid "Add file"
+msgstr "Fájl hozzáadása"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:89
+msgid "Remove file"
+msgstr "A fájl eltávolítása"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:104
+msgid "File Manager"
+msgstr "Fájlkezelő"
+
+#: ../plugins/filemanager/FileView.vala:73
+msgid "/New File"
+msgstr "/Új fájl"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:24
+msgid "Preserve Indent"
+msgstr ""
+
+#: ../plugins/preserve-indent/preserve-indent.vala:25
+msgid "Maintains indent level of pasted text when auto-indent is active"
+msgstr ""
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:21
+msgid "Highlight Selected Words"
+msgstr "Kiválasztott szavak kijelölése"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:22
+msgid "Highlights all occurrences of words that are selected"
+msgstr "Kijelöli a kiválasztott szavak összes előfordulását"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:21
+#: ../plugins/clipboard-history/ClipboardHistory.vala:89
+msgid "Clipboard History"
+msgstr "Vágólap előzmények"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:22
+msgid "Clipboard to view history"
+msgstr "Vágólap az előzmények megtekintéséhez"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:28
+msgid "..."
+msgstr "..."
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:156
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:159
+#: ../plugins/terminal/terminal.vala:313
+msgid "Paste"
+msgstr "Beillesztés"
+
+#: ../plugins/browser-preview/BrowserView.vala:49
+msgid "Close Inspector"
+msgstr "Inspector bezárása"
+
+#: ../plugins/browser-preview/browser-preview.vala:21
+msgid "Browser Preview"
+msgstr "Böngészőnézet"
+
+#: ../plugins/browser-preview/browser-preview.vala:22
+msgid "Get a preview your work in a web page"
+msgstr "Tekintse meg a munkáját egy weblapon"
+
+#: ../plugins/browser-preview/browser-preview.vala:85
+#: ../plugins/browser-preview/browser-preview.vala:111
+msgid "Show Preview"
+msgstr "Előnézet megjelenítése"
+
+#: ../plugins/browser-preview/browser-preview.vala:107
+#: ../plugins/browser-preview/browser-preview.vala:150
+msgid "Web Preview"
+msgstr "Web előnézet"
+
+#: ../plugins/browser-preview/browser-preview.vala:108
+msgid "Hide Preview"
+msgstr "Előnézet elrejtése"
+
+#: ../plugins/contractor/contractor.vala:21
+msgid "Share your files with Contractor"
+msgstr "Fájlok megosztása a Kapcsolatok segítségével"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:70
+msgid "Folders"
+msgstr "Mappák"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:88
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:89
+msgid "Open a folder"
+msgstr "Mappa megnyitása"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:94
+msgid "_Cancel"
+msgstr "_Mégsem"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:95
+msgid "_Open"
+msgstr "Meg_nyitás"
+
+#: ../plugins/folder-manager/FileView.vala:294
+msgid "Close Folder"
+msgstr "Mappa bezárása"
+
+#: ../plugins/outline/OutlinePlugin.vala:21
+msgid "Outline"
+msgstr "Körvonal"
+
+#: ../plugins/outline/OutlinePlugin.vala:22
+msgid "Outline symbols in your current file in vala"
+msgstr "Jelenlegi fájl szimbólumainak körvonalazása a vala-ban"
+
+#: ../plugins/outline/OutlinePlugin.vala:111
+#: ../plugins/outline/CtagsSymbolResolver.vala:35
+#: ../plugins/outline/CtagsSymbolResolver.vala:68
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:21
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:94
+msgid "Symbols"
+msgstr "Szimbólumok"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:21
+msgid "Brackets Completion"
+msgstr "Zárójel kiegészítés"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:22
+msgid "Complete brackets while typing"
+msgstr "Zárójelek automatikus bezárása gépelés során"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:20
+#: ../plugins/source-tree/SourceTreePlugin.vala:197
+msgid "Source Tree"
+msgstr "Forrás fa"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:21
+msgid "Have a look at your sources organized in a nice tree"
+msgstr "Vessen egy pillantást a fába rendezett forrásaira"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:42
+msgid "Loading..."
+msgstr "Betöltés…"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:175
+msgid "Bookmark"
+msgstr "Könyvjelző"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:234
+msgid "Files"
+msgstr "Fájlok"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:235
+msgid "Project"
+msgstr "Projekt"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:236
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:21
+msgid "Vim Emulation"
+msgstr "Vim emuláció"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:22
+msgid "Use Vim commands in Scratch"
+msgstr "Vim parancsok használata a Scratchben"
+
+#: ../plugins/pastebin/pastebin.vala:23
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:24
+msgid "Share files with pastebin service"
+msgstr "Fájlok megosztása Pastebin segítségével"
+
+#: ../plugins/pastebin/pastebin.vala:134
+msgid "Upload to Pastebin"
+msgstr "Feltöltés Pastebinre"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:254
+msgid "Share via PasteBin"
+msgstr "Megosztás PasteBin-en"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:272
+msgid "Name:"
+msgstr "Név:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:278
+msgid "Format: "
+msgstr "Formátum: "
+
+#: ../plugins/pastebin/pastebin_dialog.vala:280
+msgid "Others..."
+msgstr "Egyéb..."
+
+#: ../plugins/pastebin/pastebin_dialog.vala:305
+msgid "Expiry time:"
+msgstr "Lejárati idő:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:310
+msgid "Keep this paste private"
+msgstr "Személyes"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:312
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:342
+msgid "Other formats"
+msgstr "Egyéb formátumok"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:511
+msgid "Never"
+msgstr "Soha"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:512
+msgid "Ten minutes"
+msgstr "Tíz perc"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:513
+msgid "One hour"
+msgstr "Egy óra"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:514
+msgid "One day"
+msgstr "Egy nap"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:515
+msgid "One month"
+msgstr "Egy hónap"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:18
+msgid "Strip trailing whitespace"
+msgstr "Sorvégi szóközök eltávolítása"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:19
+msgid "Strip trailing whitespace on save"
+msgstr "Sorvégi szóközök eltávolítása mentéskor"
+
+#: ../plugins/spell/spell.vala:18
+msgid "Spell Checker"
+msgstr "Helyesírás-ellenőrző"
+
+#: ../plugins/spell/spell.vala:19
+msgid "Checks the spelling of your documents"
+msgstr "Dokumentumok helyesírás-ellenőrzése"
+
+#: ../plugins/open-with/open-with.vala:21
+msgid "Open With"
+msgstr "Megnyitás ezzel"
+
+#: ../plugins/open-with/open-with.vala:22
+msgid "Open files you are editing with another application"
+msgstr "Jelenlegi fájl megnyitása más alkalmazással"
+
+#: ../plugins/open-with/open-with.vala:54
+msgid "Open With…"
+msgstr ""
+
+#: ../plugins/detect-indent/detect-indent.vala:1
+msgid "Detect Indent"
+msgstr "Behúzás észlelése"
+
+#: ../plugins/detect-indent/detect-indent.vala:2
+msgid "Heuristically detect tab or space settings"
+msgstr "Heurisztikusan érzékelje a tab vagy space beállításokat"
+
+#: ../plugins/terminal/terminal.vala:23 ../plugins/terminal/terminal.vala:116
+#: ../plugins/terminal/terminal.vala:125 ../plugins/terminal/terminal.vala:172
+#: ../plugins/terminal/terminal.vala:174
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../plugins/terminal/terminal.vala:24
+msgid "A terminal in your text editor"
+msgstr "Terminál a szövegszerkesztőben"
+
+#: ../plugins/terminal/terminal.vala:167 ../plugins/terminal/terminal.vala:178
+msgid "Show Terminal"
+msgstr "Terminál mutatása"
+
+#: ../plugins/terminal/terminal.vala:170
+msgid "Hide Terminal"
+msgstr "Terminál elrejtése"
+
+#: ../plugins/terminal/terminal.vala:306
+msgid "Copy"
+msgstr "Másolás"
+
+#: ../plugins/terminal/terminal.vala:323
+msgid "Terminal on Right"
+msgstr "Terminál jobb oldalon"
+
+#: ../plugins/terminal/terminal.vala:331
+msgid "Terminal on Bottom"
+msgstr "Terminál alul"
+
+#: ../plugins/word-completion/plugin.vala:34
+msgid "Words Completion"
+msgstr "Szó kiegészítés"
+
+#: ../plugins/word-completion/plugin.vala:35
+msgid "Show a completion dialog with most used words from your files"
+msgstr ""
+"Párbeszédablak megjelenítése a fájlokban leggyakrabban használt szavakkal"
+
+#: ../plugins/word-completion/plugin.vala:175
+msgid "%s - Word Completion"
+msgstr "%s - szókiegészítés"
+
+#: ../plugins/word-completion/completion-provider.vala:80
+msgid "Could not load icon theme: %s\n"
+msgstr "%s ikontéma nem tölthető be\n"
+
+#~ msgid "New document"
+#~ msgstr "Új dokumentum"
+
+#~ msgid "Normal text"
+#~ msgstr "Egyszerű szöveg"
+
+#~ msgid "Go to line..."
+#~ msgstr "Ugrás sorra..."
+
+#~ msgid "Find..."
+#~ msgstr "Keresés..."
+
+#~ msgid "Previous Search"
+#~ msgstr "Előző keresés"
+
+#~ msgid "Next Search"
+#~ msgstr "Következő keresés"
+
+#~ msgid "Save as"
+#~ msgstr "Mentés másként"
+
+#~ msgid "Save the current file"
+#~ msgstr "A jelenlegi fájl mentése"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "A jelenlegi fájl mentése más néven"
+
+#~ msgid "Status Bar"
+#~ msgstr "Állapotsor"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Alsó panel"
+
+#~ msgid "Sidebar"
+#~ msgstr "Oldalsáv"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Menti a változtatásokat bezárás előtt?"
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Menti a változtatásokat a fájl bezárása előtt?"
+
+#~ msgid "No files are open."
+#~ msgstr "Nincsenek megnyitott fájlok."
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Új dokumentum létrehozása új lapon"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Jobboldali margó megjelenítése:"
+
+#~ msgid "Margin width:"
+#~ msgstr "Margó szélessége:"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Új hely kiválasztása"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Nem mentheti a változtatásokat a következőnél:"
+
+#~ msgid "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Kívánja menteni ezen fájl változtatásait egy másik helyre?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Újra létre kívánja hozni?"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Új dokumentum létrehozása sablonból"
+
+#~ msgid "Create a new instance"
+#~ msgstr "Új példány létrehozása"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Kívánja frissíteni?"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Bővítménykészlet paramétere"
+
+#~ msgid "Context View"
+#~ msgstr "Helyi nézet"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "A fájl változtatásai nem kerültek mentésre."
+
+#~ msgid "There are unsaved changes in Scratch!"
+#~ msgstr "Mentetlen módosítások vannak a Scratch!"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Mentetlen módosítások vannak!"
+
+#, c-format
+#~ msgid "The file %s was deleted."
+#~ msgstr "A(z) %s fájl törölve."
+
+#, c-format
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "Menti a mentetlen változtatásokat a(z) %s fájlba bezárás előtt?"
+
+#, c-format
+#~ msgid "The file %s was modified."
+#~ msgstr "A(z) %s fájl módosítva."

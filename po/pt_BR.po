@@ -1,0 +1,941 @@
+# Brazilian Portuguese translation for scratch
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-18 13:57-0600\n"
+"PO-Revision-Date: 2016-02-12 13:45+0000\n"
+"Last-Translator: Bruno Raphael Cabral de Mesquita "
+"<brcmesquita@outlook.com.br>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-13 05:25+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+"Language: pt_BR\n"
+
+#: ../src/Scratch.vala:68
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adriano Tanaka https://launchpad.net/~adriano-tanakaa\n"
+"  Bruno Raphael Cabral de Mesquita https://launchpad.net/~brunoraphael\n"
+"  Cleiton Floss https://launchpad.net/~cleitonfloss\n"
+"  DavyS https://launchpad.net/~davysson\n"
+"  Eduardo Souza https://launchpad.net/~eduardo.souza\n"
+"  Elton Viana https://launchpad.net/~eltonvs\n"
+"  Felipe Braga https://launchpad.net/~fbobraga-gmail\n"
+"  Fernando Henrique Bandeira https://launchpad.net/~fernando-bandeira\n"
+"  Gabriel Barbosa Nascimento "
+"https://launchpad.net/~barbosanascimentogabriel\n"
+"  Hugo Martins https://launchpad.net/~hugobbmartins\n"
+"  Lalafreak https://launchpad.net/~laladebian\n"
+"  Leonardo Lemos https://launchpad.net/~leonardolemos\n"
+"  Luan https://launchpad.net/~luanmichelsantoscoutinho\n"
+"  Marco Aurélio Krause https://launchpad.net/~fxhelp-br\n"
+"  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+"  Murilo Venturoso https://launchpad.net/~muriloventuroso\n"
+"  Otto Robba https://launchpad.net/~otto-ottorobba\n"
+"  Pablo Diego Moço https://launchpad.net/~pablodm89\n"
+"  Pablo R. Dinella https://launchpad.net/~ipablo.rd\n"
+"  Paulo Galardi https://launchpad.net/~lains\n"
+"  Pedro Jordão https://launchpad.net/~pedrohjordao\n"
+"  Rafael Neri https://launchpad.net/~rafepel\n"
+"  Rafael Sousa https://launchpad.net/~rafmsou\n"
+"  Thiago Abreu https://launchpad.net/~thiagojedi\n"
+"  Tomas Abril https://launchpad.net/~tomas-abril\n"
+"  Willian Paixao https://launchpad.net/~willianpaixao-deactivatedaccount\n"
+"  daniel_nii https://launchpad.net/~daniel-nii\n"
+"  luiz112010@gmail.com https://launchpad.net/~luiz112010"
+
+#: ../src/Scratch.vala:246
+msgid "New Tab"
+msgstr "Nova aba"
+
+#: ../src/Scratch.vala:247 ../src/config.vala:18
+msgid "New Window"
+msgstr "Nova janela"
+
+#: ../src/Scratch.vala:248
+msgid "Print version info and exit"
+msgstr "Imprimir informações de versão e sair"
+
+#: ../src/Scratch.vala:249
+msgid "Set of plugins"
+msgstr "Conjunto de plugins"
+
+#: ../src/Scratch.vala:250
+msgid "Current working directory"
+msgstr "Diretório atual"
+
+#: ../src/config.vala:15
+msgid "Edit text files"
+msgstr "Editar arquivos de texto"
+
+#: ../src/config.vala:16
+msgid "Text Editor"
+msgstr "Editor de texto"
+
+#: ../src/config.vala:17 ../src/Services/Document.vala:405
+msgid "New Document"
+msgstr "Novo documento"
+
+#: ../src/config.vala:19
+msgid "About Scratch"
+msgstr "Sobre o Scratch"
+
+#: ../src/Services/Document.vala:231
+msgid "Save changes to document %s before closing?"
+msgstr "Salvar alterações no documento %s antes de fechar?"
+
+#: ../src/Services/Document.vala:234
+msgid ""
+"If you don't save, changes from the last 4 seconds will be permanently lost."
+msgstr ""
+"Se você não salvar, as alterações dos últimos 4 segundos serão perdidas "
+"permanentemente."
+
+#: ../src/Services/Document.vala:236
+msgid "Close without saving"
+msgstr "Fechar sem salvar"
+
+#: ../src/Services/Document.vala:240 ../src/Utils.vala:29
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../src/Services/Document.vala:241 ../src/Services/Document.vala:546
+#: ../src/Utils.vala:33 ../src/MainWindow.vala:897
+msgid "Save"
+msgstr "Salvar"
+
+#: ../src/Services/Document.vala:313
+msgid "Save File"
+msgstr "Salvar arquivo"
+
+#: ../src/Services/Document.vala:521
+msgid ""
+"File \"%s\" cannot be read. Maybe it is corrupt\n"
+"or you do not have the necessary permissions to read it."
+msgstr ""
+"O arquivo \"%s\" não pôde ser lido. Ele pode estar corrompido \n"
+"ou você não possui as permissões necessárias para realizar a leitura."
+
+#: ../src/Services/Document.vala:537
+msgid ""
+"The location containing the file \"%s\" was unmounted. Do you want to save "
+"somewhere else?"
+msgstr ""
+"O local contendo o arquivo \"%s\" foi desmontado. Deseja salvá-lo em outro "
+"lugar?"
+
+#: ../src/Services/Document.vala:539 ../src/MainWindow.vala:901
+msgid "Save As…"
+msgstr "Salvar como..."
+
+#: ../src/Services/Document.vala:544
+msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgstr "O arquivo \"%s\" foi excluído. Deseja salvá-lo mesmo assim?"
+
+#: ../src/Services/Document.vala:557
+msgid ""
+"You cannot save changes on file \"%s\". Do you want to save the changes to "
+"this file in a different location?"
+msgstr ""
+"Você não pode modificar o arquivo \"%s\". Você deseja salvar as alterações "
+"deste arquivo em outro lugar?"
+
+#: ../src/Services/Document.vala:559
+msgid "Save changes elsewhere"
+msgstr "Salvar as alterações em outro lugar"
+
+#: ../src/Services/Document.vala:590
+msgid ""
+"File \"%s\" was modified by an external application. Do you want to load it "
+"again or continue your editing?"
+msgstr ""
+"O arquivo \"%s\" foi modificado por uma aplicação externa. Deseja carregá-lo "
+"novamente ou continuar a sua edição?"
+
+#: ../src/Services/Document.vala:591
+msgid "Load"
+msgstr "Carregar"
+
+#: ../src/Services/Document.vala:594
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../src/Services/TemplateManager.vala:194 ../src/MainWindow.vala:905
+msgid "Templates"
+msgstr "Modelos"
+
+#: ../src/Widgets/DocumentView.vala:91
+msgid "Text file from "
+msgstr "Arquivo de texto a partir de "
+
+#: ../src/Widgets/SourceView.vala:120
+msgid "Syntax Highlighting"
+msgstr "Destaque de sintaxe"
+
+#: ../src/Widgets/SourceView.vala:131
+msgid "Normal Text"
+msgstr "Texto normal"
+
+#: ../src/Widgets/LoadingView.vala:33
+msgid "Wait while restoring last session..."
+msgstr "Aguarde enquanto restauramos a última sessão..."
+
+#: ../src/Widgets/SearchManager.vala:70
+msgid "Find"
+msgstr "Procurar"
+
+#: ../src/Widgets/SearchManager.vala:75
+msgid "Replace With"
+msgstr "Substituir com"
+
+#: ../src/Widgets/SearchManager.vala:91
+msgid "Search next"
+msgstr "Procurar próximo"
+
+#: ../src/Widgets/SearchManager.vala:97
+msgid "Search previous"
+msgstr "Procurar anterior"
+
+#: ../src/Widgets/SearchManager.vala:104
+msgid "Cyclic Search"
+msgstr "Procura cíclica"
+
+#: ../src/Widgets/SearchManager.vala:107 ../src/MainWindow.vala:849
+#: ../src/MainWindow.vala:850
+msgid "Replace"
+msgstr "Substituir"
+
+#: ../src/Widgets/SearchManager.vala:112
+msgid "Replace all"
+msgstr "Substituir todos"
+
+#: ../src/Widgets/SearchManager.vala:121
+msgid "Go To Line:"
+msgstr "Ir para a linha:"
+
+#: ../src/Widgets/ToolBar.vala:58
+msgid "Share"
+msgstr "Compartilhar"
+
+#: ../src/Widgets/SplitView.vala:45
+msgid "No Files Open"
+msgstr "Nenhum arquivo aberto"
+
+#: ../src/Widgets/SplitView.vala:46
+msgid "Open a file to begin editing."
+msgstr "Abra um arquivo para começar a editar."
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "New file"
+msgstr "Novo arquivo"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "Create a new empty file."
+msgstr "Criar um novo arquivo vazio."
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open file"
+msgstr "Abrir arquivo"
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open a saved file."
+msgstr "Abrir um arquivo salvo."
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "New file from clipboard"
+msgstr "Novo arquivo da área de transferência"
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "Create a new file from the contents of your clipboard."
+msgstr ""
+"Criar um novo arquivo a partir do conteúdo de sua área de transferência."
+
+#: ../src/Dialogs/PreferencesDialog.vala:50 ../src/MainWindow.vala:909
+msgid "Preferences"
+msgstr "Preferências"
+
+#: ../src/Dialogs/PreferencesDialog.vala:63
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: ../src/Dialogs/PreferencesDialog.vala:66
+msgid "Interface"
+msgstr "Interface"
+
+#: ../src/Dialogs/PreferencesDialog.vala:79
+msgid "Extensions"
+msgstr "Extensões"
+
+#: ../src/Dialogs/PreferencesDialog.vala:83 ../src/MainWindow.vala:845
+#: ../src/MainWindow.vala:846
+msgid "Close"
+msgstr "Fechar"
+
+#: ../src/Dialogs/PreferencesDialog.vala:128
+msgid "Show welcome screen"
+msgstr "Mostrar tela de boas-vindas"
+
+#: ../src/Dialogs/PreferencesDialog.vala:129
+msgid "Show last open tabs"
+msgstr "Mostrar últimas abas abertas"
+
+#: ../src/Dialogs/PreferencesDialog.vala:145
+msgid "General:"
+msgstr "Geral:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:151
+msgid "When Scratch starts:"
+msgstr "Quando o Scratch iniciar:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:154
+msgid "Save files when changed:"
+msgstr "Salvar arquivos quando alterados:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:158
+msgid "Tabs:"
+msgstr "Tabulação:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:163
+msgid "Automatic indentation:"
+msgstr "Recuo automático:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:166
+msgid "Insert spaces instead of tabs:"
+msgstr "Inserir espaços ao invés de margem tabulada:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:170
+msgid "Tab width:"
+msgstr "Largura da tabulação:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:195
+msgid "Editor:"
+msgstr "Editor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:213
+msgid "Highlight current line:"
+msgstr "Destacar linha atual:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:214
+msgid "Highlight matching brackets:"
+msgstr "Destacar colchetes correspondentes:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:215
+msgid "Line wrap:"
+msgstr "Quebra de linha:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:216
+msgid "Draw spaces:"
+msgstr "Desenhar espaços:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:217
+msgid "Show line numbers:"
+msgstr "Mostrar número de linhas:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:219
+msgid "Line width guide:"
+msgstr "Largura na linha de guia:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:233
+msgid "Font and Color Scheme:"
+msgstr "Esquema de cor e fonte:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:247
+msgid "Select font:"
+msgstr "Selecionar fonte:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:250
+msgid "Color scheme:"
+msgstr "Tema de cor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:255
+msgid "Custom font:"
+msgstr "Fonte personalizada:"
+
+#: ../src/Utils.vala:31 ../src/MainWindow.vala:885
+#: ../plugins/filemanager/FileView.vala:230
+msgid "Open"
+msgstr "Abrir"
+
+#: ../src/Utils.vala:42
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../src/Utils.vala:45
+msgid "Text files"
+msgstr "Arquivos de texto"
+
+#: ../src/MainWindow.vala:97
+msgid "Zeitgeist Datasource for Scratch"
+msgstr "Fonte de dados Zeitgeist para Scratch"
+
+#: ../src/MainWindow.vala:179
+msgid "Trash"
+msgstr "Lixeira"
+
+#: ../src/MainWindow.vala:662
+msgid "Open some files"
+msgstr "Abrir alguns arquivos"
+
+#: ../src/MainWindow.vala:771
+msgid "Hide search bar"
+msgstr "Esconder barra de busca"
+
+#: ../src/MainWindow.vala:774 ../src/MainWindow.vala:938
+#: ../src/MainWindow.vala:939
+msgid "Find…"
+msgstr "Localizar..."
+
+#: ../src/MainWindow.vala:837 ../src/MainWindow.vala:838
+msgid "Go to line…"
+msgstr "Ir para a linha..."
+
+#: ../src/MainWindow.vala:841 ../src/MainWindow.vala:842
+msgid "Quit"
+msgstr "Sair"
+
+#: ../src/MainWindow.vala:853
+msgid "Reopen closed document"
+msgstr "Reabrir documento fechado"
+
+#: ../src/MainWindow.vala:854
+msgid "Open last closed document in a new tab"
+msgstr "Abrir o último documento fechado em uma nova aba"
+
+#: ../src/MainWindow.vala:857
+msgid "Add New Tab"
+msgstr "Abrir nova aba"
+
+#: ../src/MainWindow.vala:858
+msgid "Add a new tab"
+msgstr "Adicionar uma nova aba"
+
+#: ../src/MainWindow.vala:861
+msgid "Add New View"
+msgstr "Adicionar nova visualização"
+
+#: ../src/MainWindow.vala:862
+msgid "Add a new view"
+msgstr "Adicionar uma nova visualização"
+
+#: ../src/MainWindow.vala:865
+msgid "Remove Current View"
+msgstr "Remover visualização atual"
+
+#: ../src/MainWindow.vala:866
+msgid "Remove this view"
+msgstr "Remover esta visualização"
+
+#: ../src/MainWindow.vala:869
+msgid "Undo"
+msgstr "Desfazer"
+
+#: ../src/MainWindow.vala:870
+msgid "Undo the last action"
+msgstr "Desfazer a última ação"
+
+#: ../src/MainWindow.vala:873
+msgid "Redo"
+msgstr "Refazer"
+
+#: ../src/MainWindow.vala:874
+msgid "Redo the last undone action"
+msgstr "Refazer a última ação desfeita"
+
+#: ../src/MainWindow.vala:877
+msgid "Revert"
+msgstr "Reverter"
+
+#: ../src/MainWindow.vala:878
+msgid "Restore this file"
+msgstr "Restaurar este arquivo"
+
+#: ../src/MainWindow.vala:881 ../src/MainWindow.vala:882
+msgid "Duplicate selected strings"
+msgstr "Duplicar strings selecionadas"
+
+#: ../src/MainWindow.vala:886
+msgid "Open a file"
+msgstr "Abrir um arquivo"
+
+#: ../src/MainWindow.vala:889
+msgid "Clipboard"
+msgstr "Área de transferência"
+
+#: ../src/MainWindow.vala:890
+msgid "New file from Clipboard"
+msgstr "Novo arquivo da área de transferência"
+
+#: ../src/MainWindow.vala:893
+msgid "Zoom"
+msgstr "Escala"
+
+#: ../src/MainWindow.vala:894
+msgid "Zoom 1:1"
+msgstr "Escala 1:1"
+
+#: ../src/MainWindow.vala:898
+msgid "Save this file"
+msgstr "Salvar este arquivo"
+
+#: ../src/MainWindow.vala:902
+msgid "Save this file with a different name"
+msgstr "Salvar este arquivo com um nome diferente"
+
+#: ../src/MainWindow.vala:906
+msgid "Project templates"
+msgstr "Modelos de projeto"
+
+#: ../src/MainWindow.vala:910
+msgid "Change Scratch settings"
+msgstr "Mudar configurações"
+
+#: ../src/MainWindow.vala:913 ../src/MainWindow.vala:914
+msgid "Next Tab"
+msgstr "Próxima aba"
+
+#: ../src/MainWindow.vala:917 ../src/MainWindow.vala:918
+msgid "Previous Tab"
+msgstr "Aba anterior"
+
+#: ../src/MainWindow.vala:934 ../src/MainWindow.vala:935
+msgid "Fullscreen"
+msgstr "Tela cheia"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:21
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:21
+msgid "Folder Manager"
+msgstr "Gerenciador de pastas"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:22
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:22
+msgid "Basic folder manager with file browsing"
+msgstr "Gerenciador de pastas básico com navegador de arquivos"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:71
+msgid "Go to parent"
+msgstr "Ir para o pai"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:82
+msgid "Add file"
+msgstr "Adicionar arquivo"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:89
+msgid "Remove file"
+msgstr "Remover arquivo"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:104
+msgid "File Manager"
+msgstr "Gerenciador de arquivos"
+
+#: ../plugins/filemanager/FileView.vala:73
+msgid "/New File"
+msgstr "/Novo Arquivo"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:24
+msgid "Preserve Indent"
+msgstr "Preservar identação"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:25
+msgid "Maintains indent level of pasted text when auto-indent is active"
+msgstr ""
+"Mantêm a identação do texto colado quando a auto-identação está ativa"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:21
+msgid "Highlight Selected Words"
+msgstr "Destacar palavras selecionadas"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:22
+msgid "Highlights all occurrences of words that are selected"
+msgstr "Destacar todas as ocorrências das palavras que estão selecionadas"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:21
+#: ../plugins/clipboard-history/ClipboardHistory.vala:89
+msgid "Clipboard History"
+msgstr "Histórico da área de transferência"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:22
+msgid "Clipboard to view history"
+msgstr "Histórico de visualização da área de transferência"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:28
+msgid "..."
+msgstr "..."
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:156
+msgid "Delete"
+msgstr "Apagar"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:159
+#: ../plugins/terminal/terminal.vala:313
+msgid "Paste"
+msgstr "Colar"
+
+#: ../plugins/browser-preview/BrowserView.vala:49
+msgid "Close Inspector"
+msgstr "Fechar o inspetor"
+
+#: ../plugins/browser-preview/browser-preview.vala:21
+msgid "Browser Preview"
+msgstr "Pré-visualizar no navegador"
+
+#: ../plugins/browser-preview/browser-preview.vala:22
+msgid "Get a preview your work in a web page"
+msgstr "Obtenha uma prévia de seu trabalha em uma página da web"
+
+#: ../plugins/browser-preview/browser-preview.vala:85
+#: ../plugins/browser-preview/browser-preview.vala:111
+msgid "Show Preview"
+msgstr "Exibir pré-visualização"
+
+#: ../plugins/browser-preview/browser-preview.vala:107
+#: ../plugins/browser-preview/browser-preview.vala:150
+msgid "Web Preview"
+msgstr "Pré-visualização na Web"
+
+#: ../plugins/browser-preview/browser-preview.vala:108
+msgid "Hide Preview"
+msgstr "Esconder pré-visualização"
+
+#: ../plugins/contractor/contractor.vala:21
+msgid "Share your files with Contractor"
+msgstr "Compartilhar seu arquivos com o Contractor"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:70
+msgid "Folders"
+msgstr "Pastas"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:88
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:89
+msgid "Open a folder"
+msgstr "Abrir uma pasta"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:94
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:95
+msgid "_Open"
+msgstr "_Abrir"
+
+#: ../plugins/folder-manager/FileView.vala:294
+msgid "Close Folder"
+msgstr "Fechar pasta"
+
+#: ../plugins/outline/OutlinePlugin.vala:21
+msgid "Outline"
+msgstr "Cortorno"
+
+#: ../plugins/outline/OutlinePlugin.vala:22
+msgid "Outline symbols in your current file in vala"
+msgstr "Contornar símbolos em seu atual arquivo em vala."
+
+#: ../plugins/outline/OutlinePlugin.vala:111
+#: ../plugins/outline/CtagsSymbolResolver.vala:35
+#: ../plugins/outline/CtagsSymbolResolver.vala:68
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:21
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:94
+msgid "Symbols"
+msgstr "Símbolos"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:21
+msgid "Brackets Completion"
+msgstr "Fechamento de parênteses"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:22
+msgid "Complete brackets while typing"
+msgstr "Completar parênteses enquanto estiver digitando"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:20
+#: ../plugins/source-tree/SourceTreePlugin.vala:197
+msgid "Source Tree"
+msgstr "Árvore fonte"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:21
+msgid "Have a look at your sources organized in a nice tree"
+msgstr "Dê uma olhada em suas fontes em uma árvore ótima e organizada"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:42
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:175
+msgid "Bookmark"
+msgstr "Favorito"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:234
+msgid "Files"
+msgstr "Arquivos"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:235
+msgid "Project"
+msgstr "Projeto"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:236
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:21
+msgid "Vim Emulation"
+msgstr "Emulação do Vim"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:22
+msgid "Use Vim commands in Scratch"
+msgstr "Usar os comandos do Vim no Scratch"
+
+#: ../plugins/pastebin/pastebin.vala:23
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:24
+msgid "Share files with pastebin service"
+msgstr "Compartilhar arquivos com o Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:134
+msgid "Upload to Pastebin"
+msgstr "Enviar para o Pastebin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:254
+msgid "Share via PasteBin"
+msgstr "Compartilhar via Pastebin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:272
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:278
+msgid "Format: "
+msgstr "Formato: "
+
+#: ../plugins/pastebin/pastebin_dialog.vala:280
+msgid "Others..."
+msgstr "Outros..."
+
+#: ../plugins/pastebin/pastebin_dialog.vala:305
+msgid "Expiry time:"
+msgstr "Tempo de expiração:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:310
+msgid "Keep this paste private"
+msgstr "Mantenha essa pasta privada"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:312
+msgid "Upload"
+msgstr "Enviar"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:342
+msgid "Other formats"
+msgstr "Outros formatos"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:511
+msgid "Never"
+msgstr "Nunca"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:512
+msgid "Ten minutes"
+msgstr "Dez minutos"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:513
+msgid "One hour"
+msgstr "Uma hora"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:514
+msgid "One day"
+msgstr "Um dia"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:515
+msgid "One month"
+msgstr "Um mês"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:18
+msgid "Strip trailing whitespace"
+msgstr "Tirar os espaços em branco"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:19
+msgid "Strip trailing whitespace on save"
+msgstr "Tirar os espaços em branco ao salvar"
+
+#: ../plugins/spell/spell.vala:18
+msgid "Spell Checker"
+msgstr "Verificar ortográfico"
+
+#: ../plugins/spell/spell.vala:19
+msgid "Checks the spelling of your documents"
+msgstr "Checa a ortografia de seus documentos"
+
+#: ../plugins/open-with/open-with.vala:21
+msgid "Open With"
+msgstr "Abrir com"
+
+#: ../plugins/open-with/open-with.vala:22
+msgid "Open files you are editing with another application"
+msgstr "Abrir arquivos que você está editando com outro aplicativo"
+
+#: ../plugins/open-with/open-with.vala:54
+msgid "Open With…"
+msgstr "Abrir com..."
+
+#: ../plugins/detect-indent/detect-indent.vala:1
+msgid "Detect Indent"
+msgstr "Detectar indentação"
+
+#: ../plugins/detect-indent/detect-indent.vala:2
+msgid "Heuristically detect tab or space settings"
+msgstr "Detectar configurações de espaço e tabulação heuristicamente"
+
+#: ../plugins/terminal/terminal.vala:23 ../plugins/terminal/terminal.vala:116
+#: ../plugins/terminal/terminal.vala:125 ../plugins/terminal/terminal.vala:172
+#: ../plugins/terminal/terminal.vala:174
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.vala:24
+msgid "A terminal in your text editor"
+msgstr "Um terminal em seu editor de texto"
+
+#: ../plugins/terminal/terminal.vala:167 ../plugins/terminal/terminal.vala:178
+msgid "Show Terminal"
+msgstr "Mostrar o terminal"
+
+#: ../plugins/terminal/terminal.vala:170
+msgid "Hide Terminal"
+msgstr "Esconder o terminal"
+
+#: ../plugins/terminal/terminal.vala:306
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../plugins/terminal/terminal.vala:323
+msgid "Terminal on Right"
+msgstr "Terminal à direita"
+
+#: ../plugins/terminal/terminal.vala:331
+msgid "Terminal on Bottom"
+msgstr "Terminal embaixo"
+
+#: ../plugins/word-completion/plugin.vala:34
+msgid "Words Completion"
+msgstr "Conclusão de palavras"
+
+#: ../plugins/word-completion/plugin.vala:35
+msgid "Show a completion dialog with most used words from your files"
+msgstr ""
+"Mostrar um diálogo de conclusão com as palavras mais usadas em seus arquivos"
+
+#: ../plugins/word-completion/plugin.vala:175
+msgid "%s - Word Completion"
+msgstr "%s - Conclusão de Palavras"
+
+#: ../plugins/word-completion/completion-provider.vala:80
+msgid "Could not load icon theme: %s\n"
+msgstr "Não pôde carregar o tema de ícones: %s\n"
+
+#~ msgid "No files are open."
+#~ msgstr "Nenhum arquivo está aberto."
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Salvar mudanças ainda não salvas antes de fechar o arquivo?"
+
+#~ msgid "Normal text"
+#~ msgstr "Texto normal"
+
+#~ msgid "New document"
+#~ msgstr "Novo documento"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Mostrar margem à direita:"
+
+#~ msgid "Margin width:"
+#~ msgstr "Largura da margem:"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "As mudanças neste arquivo não foram salvas."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Você deseja salvar as mudanças antes de fechar este arquivo?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Deseja recarregá-lo?"
+
+#~ msgid "Go to line..."
+#~ msgstr "Ir para a linha..."
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Criar um novo documento em uma nova aba"
+
+#~ msgid "Previous Search"
+#~ msgstr "Pesquisar anterior"
+
+#~ msgid "Save as"
+#~ msgstr "Salvar como"
+
+#~ msgid "Save the current file"
+#~ msgstr "Salvar o arquivo atual"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Salvar o arquivo atual com um nome diferente"
+
+#~ msgid "Sidebar"
+#~ msgstr "Barra lateral"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Painel inferior"
+
+#~ msgid "Status Bar"
+#~ msgstr "Barra de status"
+
+#~ msgid "Find..."
+#~ msgstr "Localizar..."
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Criar um novo documento a partir de um modelo"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Você não pode salvar as mudanças para:"
+
+#~ msgid "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Você deseja salvar as mudanças neste arquivo em um local diferente?"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Escolha a nova localização"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Você deseja criá-lo novamente?"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argumento para o conjunto de plugins"
+
+#~ msgid "Create a new instance"
+#~ msgstr "Criar nova instância"
+
+#~ msgid "There are unsaved changes in Scratch!"
+#~ msgstr "Ha alterações não salvas no Scratch!"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Há alterações não salvas!"
+
+#, c-format
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "Salvar mudanças para o arquivo %s antes de fechar?"
+
+#, c-format
+#~ msgid "The file %s was deleted."
+#~ msgstr "O arquivo %s foi deletado"
+
+#, c-format
+#~ msgid "The file %s was modified."
+#~ msgstr "O arquivo %s foi modificado"
+
+#~ msgid "Next Search"
+#~ msgstr "Próxima pesquisa"
+
+#~ msgid "Context View"
+#~ msgstr "Visualização de contexto"

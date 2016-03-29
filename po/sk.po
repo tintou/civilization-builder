@@ -1,0 +1,901 @@
+# Slovak translation for scratch
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-18 13:57-0600\n"
+"PO-Revision-Date: 2016-01-11 12:40+0000\n"
+"Last-Translator: Ľubomír Hlavko <5lubo555@azet.sk>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-01-12 05:28+0000\n"
+"X-Generator: Launchpad (build 17881)\n"
+
+#: ../src/Scratch.vala:68
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Daniel Foxik https://launchpad.net/~foxik0169\n"
+"  Igor Štefanko https://launchpad.net/~istefanko\n"
+"  Ivan Cizik https://launchpad.net/~ivancizik\n"
+"  Lukáš Papík https://launchpad.net/~stereo839\n"
+"  Marek https://launchpad.net/~sveco86\n"
+"  Marek Zelinka https://launchpad.net/~mzelinka\n"
+"  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+"  Martin Maričák https://launchpad.net/~matko-maricak\n"
+"  Matej Kovac https://launchpad.net/~matejkovaclc2\n"
+"  Milan Slovák https://launchpad.net/~milboys\n"
+"  pyler https://launchpad.net/~pyler-inbox\n"
+"  Ľubomír Hlavko https://launchpad.net/~5lubo555"
+
+#: ../src/Scratch.vala:246
+msgid "New Tab"
+msgstr "Nová karta"
+
+#: ../src/Scratch.vala:247 ../src/config.vala:18
+msgid "New Window"
+msgstr "Nové Okno"
+
+#: ../src/Scratch.vala:248
+msgid "Print version info and exit"
+msgstr "Vytlačiť informácie o verzii a ukončiť"
+
+#: ../src/Scratch.vala:249
+msgid "Set of plugins"
+msgstr "Set pluginov"
+
+#: ../src/Scratch.vala:250
+msgid "Current working directory"
+msgstr "Aktuálny pracovný adresár"
+
+#: ../src/config.vala:15
+msgid "Edit text files"
+msgstr "Úprava textových súborov"
+
+#: ../src/config.vala:16
+msgid "Text Editor"
+msgstr "Textový editor"
+
+#: ../src/config.vala:17 ../src/Services/Document.vala:405
+msgid "New Document"
+msgstr "Nový dokument"
+
+#: ../src/config.vala:19
+msgid "About Scratch"
+msgstr "O programe Scratch"
+
+#: ../src/Services/Document.vala:231
+msgid "Save changes to document %s before closing?"
+msgstr "Uložiť zmeny do dokumentu %s pred ukončením?"
+
+#: ../src/Services/Document.vala:234
+msgid ""
+"If you don't save, changes from the last 4 seconds will be permanently lost."
+msgstr "Ak neuložíte, zmeny z posledných 4 sekúnd budú navždy stratené."
+
+#: ../src/Services/Document.vala:236
+msgid "Close without saving"
+msgstr "Zavrieť bez uloženia"
+
+#: ../src/Services/Document.vala:240 ../src/Utils.vala:29
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../src/Services/Document.vala:241 ../src/Services/Document.vala:546
+#: ../src/Utils.vala:33 ../src/MainWindow.vala:897
+msgid "Save"
+msgstr "Uložiť"
+
+#: ../src/Services/Document.vala:313
+msgid "Save File"
+msgstr "Uložiť súbor"
+
+#: ../src/Services/Document.vala:521
+msgid ""
+"File \"%s\" cannot be read. Maybe it is corrupt\n"
+"or you do not have the necessary permissions to read it."
+msgstr ""
+"Súbor \"%s\" sa nedá prečítať. Môže byť poškodený\n"
+"alebo nemáte potrebné oprávnenie na jeho čítanie."
+
+#: ../src/Services/Document.vala:537
+msgid ""
+"The location containing the file \"%s\" was unmounted. Do you want to save "
+"somewhere else?"
+msgstr ""
+"Umiestnenie obsahujúce súbor \"%s\" nie je pripojené. Chcete uložiť na iné "
+"miesto?"
+
+#: ../src/Services/Document.vala:539 ../src/MainWindow.vala:901
+msgid "Save As…"
+msgstr "Uložiť ako…"
+
+#: ../src/Services/Document.vala:544
+msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgstr "Súbor \"%s\" bol odstránený. Chcete ho aj napriek tomu uložiť?"
+
+#: ../src/Services/Document.vala:557
+msgid ""
+"You cannot save changes on file \"%s\". Do you want to save the changes to "
+"this file in a different location?"
+msgstr ""
+"Nie je možné uložiť zmeny v súbore \"%s\". Chcete uložiť zmeny v súbore na "
+"iné miesto?"
+
+#: ../src/Services/Document.vala:559
+msgid "Save changes elsewhere"
+msgstr "Uložiť zmeny inam"
+
+#: ../src/Services/Document.vala:590
+msgid ""
+"File \"%s\" was modified by an external application. Do you want to load it "
+"again or continue your editing?"
+msgstr ""
+"Súbor \"%s\" bol zmenený inou aplikáciou.  Chcete ho opätovne načítať alebo "
+"pokračovať v úpravách?"
+
+#: ../src/Services/Document.vala:591
+msgid "Load"
+msgstr "Načítať"
+
+#: ../src/Services/Document.vala:594
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: ../src/Services/TemplateManager.vala:194 ../src/MainWindow.vala:905
+msgid "Templates"
+msgstr "Šablony"
+
+#: ../src/Widgets/DocumentView.vala:91
+msgid "Text file from "
+msgstr "Textový súbor z "
+
+#: ../src/Widgets/SourceView.vala:120
+msgid "Syntax Highlighting"
+msgstr "Zvýrazňovanie syntaxe"
+
+#: ../src/Widgets/SourceView.vala:131
+msgid "Normal Text"
+msgstr "Normálny text"
+
+#: ../src/Widgets/LoadingView.vala:33
+msgid "Wait while restoring last session..."
+msgstr "Čakať na obnovenie poslednej relácie..."
+
+#: ../src/Widgets/SearchManager.vala:70
+msgid "Find"
+msgstr "Hľadať"
+
+#: ../src/Widgets/SearchManager.vala:75
+msgid "Replace With"
+msgstr "Nahradiť za"
+
+#: ../src/Widgets/SearchManager.vala:91
+msgid "Search next"
+msgstr "Hľadať ďalší"
+
+#: ../src/Widgets/SearchManager.vala:97
+msgid "Search previous"
+msgstr "Hľadať predošlý"
+
+#: ../src/Widgets/SearchManager.vala:104
+msgid "Cyclic Search"
+msgstr "Cyklické hľadanie"
+
+#: ../src/Widgets/SearchManager.vala:107 ../src/MainWindow.vala:849
+#: ../src/MainWindow.vala:850
+msgid "Replace"
+msgstr "Nahradiť"
+
+#: ../src/Widgets/SearchManager.vala:112
+msgid "Replace all"
+msgstr "Nahradiť všetko"
+
+#: ../src/Widgets/SearchManager.vala:121
+msgid "Go To Line:"
+msgstr "Ísť na riadok:"
+
+#: ../src/Widgets/ToolBar.vala:58
+msgid "Share"
+msgstr "Zdieľať"
+
+#: ../src/Widgets/SplitView.vala:45
+msgid "No Files Open"
+msgstr "Žiadne otvorené súbory"
+
+#: ../src/Widgets/SplitView.vala:46
+msgid "Open a file to begin editing."
+msgstr "Otvorte súbor a začnite upravovať."
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "New file"
+msgstr "Nový súbor"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "Create a new empty file."
+msgstr "Vytvoriť nový prázdny súbor."
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open file"
+msgstr "Otvoriť súbor"
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open a saved file."
+msgstr "Otvoriť uložený súbor."
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "New file from clipboard"
+msgstr "Nový súbor zo schránky"
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "Create a new file from the contents of your clipboard."
+msgstr "Vytvoriť nový súbor z obsahu vašej schránky."
+
+#: ../src/Dialogs/PreferencesDialog.vala:50 ../src/MainWindow.vala:909
+msgid "Preferences"
+msgstr "Nastavenia"
+
+#: ../src/Dialogs/PreferencesDialog.vala:63
+msgid "Behavior"
+msgstr "Správanie"
+
+#: ../src/Dialogs/PreferencesDialog.vala:66
+msgid "Interface"
+msgstr "Rozhranie"
+
+#: ../src/Dialogs/PreferencesDialog.vala:79
+msgid "Extensions"
+msgstr "Rozšírenia"
+
+#: ../src/Dialogs/PreferencesDialog.vala:83 ../src/MainWindow.vala:845
+#: ../src/MainWindow.vala:846
+msgid "Close"
+msgstr "Zavrieť"
+
+#: ../src/Dialogs/PreferencesDialog.vala:128
+msgid "Show welcome screen"
+msgstr "Ukázať uvítaciu obrazovku"
+
+#: ../src/Dialogs/PreferencesDialog.vala:129
+msgid "Show last open tabs"
+msgstr "Zobraziť naposledy otvorené karty"
+
+#: ../src/Dialogs/PreferencesDialog.vala:145
+msgid "General:"
+msgstr "Základné:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:151
+msgid "When Scratch starts:"
+msgstr "Po spustení Scratch:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:154
+msgid "Save files when changed:"
+msgstr "Uložiť súbory pri ich zmene:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:158
+msgid "Tabs:"
+msgstr "Karty:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:163
+msgid "Automatic indentation:"
+msgstr "Automatické vytvorenie odstavca:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:166
+msgid "Insert spaces instead of tabs:"
+msgstr "Vložiť medzery namiesto tabulátorov:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:170
+msgid "Tab width:"
+msgstr "Šírka tabulátora:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:195
+msgid "Editor:"
+msgstr "Editor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:213
+msgid "Highlight current line:"
+msgstr "Zvýrazniť súčasný riadok:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:214
+msgid "Highlight matching brackets:"
+msgstr "Zvýrazniť zhodujúce sa zátvorky:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:215
+msgid "Line wrap:"
+msgstr "Zalomenie riadkov:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:216
+msgid "Draw spaces:"
+msgstr "Vykresľovanie medzier:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:217
+msgid "Show line numbers:"
+msgstr "Zobraziť číslovanie riadkov:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:219
+msgid "Line width guide:"
+msgstr "Príručka pre šírku čiary"
+
+#: ../src/Dialogs/PreferencesDialog.vala:233
+msgid "Font and Color Scheme:"
+msgstr "Písmo a farebná schéma:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:247
+msgid "Select font:"
+msgstr "Vybrať písmo:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:250
+msgid "Color scheme:"
+msgstr "Farebná schéma:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:255
+msgid "Custom font:"
+msgstr "Vlastné písmo:"
+
+#: ../src/Utils.vala:31 ../src/MainWindow.vala:885
+#: ../plugins/filemanager/FileView.vala:230
+msgid "Open"
+msgstr "Otvoriť"
+
+#: ../src/Utils.vala:42
+msgid "All files"
+msgstr "Všetky súbory"
+
+#: ../src/Utils.vala:45
+msgid "Text files"
+msgstr "Textové súbory"
+
+#: ../src/MainWindow.vala:97
+msgid "Zeitgeist Datasource for Scratch"
+msgstr "Zeitgeist zdroj dát pre Scratch"
+
+#: ../src/MainWindow.vala:179
+msgid "Trash"
+msgstr "Kôš"
+
+#: ../src/MainWindow.vala:662
+msgid "Open some files"
+msgstr "Otvoriť niektoré súbory"
+
+#: ../src/MainWindow.vala:771
+msgid "Hide search bar"
+msgstr "Skryť vyhľadávací panel"
+
+#: ../src/MainWindow.vala:774 ../src/MainWindow.vala:938
+#: ../src/MainWindow.vala:939
+msgid "Find…"
+msgstr "Nájsť…"
+
+#: ../src/MainWindow.vala:837 ../src/MainWindow.vala:838
+msgid "Go to line…"
+msgstr "Prejsť na riadok..."
+
+#: ../src/MainWindow.vala:841 ../src/MainWindow.vala:842
+msgid "Quit"
+msgstr "Ukončit"
+
+#: ../src/MainWindow.vala:853
+msgid "Reopen closed document"
+msgstr "Znovu otvoriť zatvorený dokument"
+
+#: ../src/MainWindow.vala:854
+msgid "Open last closed document in a new tab"
+msgstr "Otvoriť posledný zatvorený dokument v novej karte"
+
+#: ../src/MainWindow.vala:857
+msgid "Add New Tab"
+msgstr "Pridať novú kartu"
+
+#: ../src/MainWindow.vala:858
+msgid "Add a new tab"
+msgstr "Pridať novú kartu"
+
+#: ../src/MainWindow.vala:861
+msgid "Add New View"
+msgstr "Pridať nové zobrazenie"
+
+#: ../src/MainWindow.vala:862
+msgid "Add a new view"
+msgstr "Pridať nové zobrazenie"
+
+#: ../src/MainWindow.vala:865
+msgid "Remove Current View"
+msgstr "Odstrániť současné zobrazenie"
+
+#: ../src/MainWindow.vala:866
+msgid "Remove this view"
+msgstr "Odstraniť toto zobrazenie"
+
+#: ../src/MainWindow.vala:869
+msgid "Undo"
+msgstr "Späť"
+
+#: ../src/MainWindow.vala:870
+msgid "Undo the last action"
+msgstr "Vrátiť poslednú akciu"
+
+#: ../src/MainWindow.vala:873
+msgid "Redo"
+msgstr "Opakovať"
+
+#: ../src/MainWindow.vala:874
+msgid "Redo the last undone action"
+msgstr "Opakovať poslednú vrátenú akciu"
+
+#: ../src/MainWindow.vala:877
+msgid "Revert"
+msgstr "Vrátiť"
+
+#: ../src/MainWindow.vala:878
+msgid "Restore this file"
+msgstr "Obnoviť tento súbor"
+
+#: ../src/MainWindow.vala:881 ../src/MainWindow.vala:882
+msgid "Duplicate selected strings"
+msgstr "Duplikovať vybrané reťazce"
+
+#: ../src/MainWindow.vala:886
+msgid "Open a file"
+msgstr "Otvoriť súbor"
+
+#: ../src/MainWindow.vala:889
+msgid "Clipboard"
+msgstr "Schránka"
+
+#: ../src/MainWindow.vala:890
+msgid "New file from Clipboard"
+msgstr "Nový súbor zo schránky"
+
+#: ../src/MainWindow.vala:893
+msgid "Zoom"
+msgstr "Priblíženie"
+
+#: ../src/MainWindow.vala:894
+msgid "Zoom 1:1"
+msgstr "Mierka 1:1"
+
+#: ../src/MainWindow.vala:898
+msgid "Save this file"
+msgstr "Uložiť tento súbor"
+
+#: ../src/MainWindow.vala:902
+msgid "Save this file with a different name"
+msgstr "Uložiť tento súbor s iným menom"
+
+#: ../src/MainWindow.vala:906
+msgid "Project templates"
+msgstr "Šablóny projektu"
+
+#: ../src/MainWindow.vala:910
+msgid "Change Scratch settings"
+msgstr "Zmeniť nastavenia editora Scratch"
+
+#: ../src/MainWindow.vala:913 ../src/MainWindow.vala:914
+msgid "Next Tab"
+msgstr "Ďalšia karta"
+
+#: ../src/MainWindow.vala:917 ../src/MainWindow.vala:918
+msgid "Previous Tab"
+msgstr "Predchádzajúca karta"
+
+#: ../src/MainWindow.vala:934 ../src/MainWindow.vala:935
+msgid "Fullscreen"
+msgstr "Na celú obrazovku"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:21
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:21
+msgid "Folder Manager"
+msgstr "Správca priečinkov"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:22
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:22
+msgid "Basic folder manager with file browsing"
+msgstr "Základný správca priečinkov s prehliadaním súborov"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:71
+msgid "Go to parent"
+msgstr "O úroveň vyššie"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:82
+msgid "Add file"
+msgstr "Pridať súbor"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:89
+msgid "Remove file"
+msgstr "Odstrániť súbor"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:104
+msgid "File Manager"
+msgstr "Správca súborov"
+
+#: ../plugins/filemanager/FileView.vala:73
+msgid "/New File"
+msgstr "/Nový súbor"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:24
+msgid "Preserve Indent"
+msgstr "Zachovať odsadenie"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:25
+msgid "Maintains indent level of pasted text when auto-indent is active"
+msgstr ""
+"Udržujte odsadenie úrovne vloženého textu, keď je aktívne automatické "
+"odsadenie"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:21
+msgid "Highlight Selected Words"
+msgstr "Zvýrazniť označený text"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:22
+msgid "Highlights all occurrences of words that are selected"
+msgstr "Zvýrazňuje výskyt všetkých vybraných slov"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:21
+#: ../plugins/clipboard-history/ClipboardHistory.vala:89
+msgid "Clipboard History"
+msgstr "História schránky"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:22
+msgid "Clipboard to view history"
+msgstr "Prezrieť históriu schránky"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:28
+msgid "..."
+msgstr "..."
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:156
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:159
+#: ../plugins/terminal/terminal.vala:313
+msgid "Paste"
+msgstr "Vložiť"
+
+#: ../plugins/browser-preview/BrowserView.vala:49
+msgid "Close Inspector"
+msgstr "Zatvoriť inšpektor"
+
+#: ../plugins/browser-preview/browser-preview.vala:21
+msgid "Browser Preview"
+msgstr "Náhľad prehliadača"
+
+#: ../plugins/browser-preview/browser-preview.vala:22
+msgid "Get a preview your work in a web page"
+msgstr "Získajte náhľad svojej práce na webovej stránke"
+
+#: ../plugins/browser-preview/browser-preview.vala:85
+#: ../plugins/browser-preview/browser-preview.vala:111
+msgid "Show Preview"
+msgstr "Zobraziť náhľad"
+
+#: ../plugins/browser-preview/browser-preview.vala:107
+#: ../plugins/browser-preview/browser-preview.vala:150
+msgid "Web Preview"
+msgstr "Náhľad v prehliadači"
+
+#: ../plugins/browser-preview/browser-preview.vala:108
+msgid "Hide Preview"
+msgstr "Skryť náhľad"
+
+#: ../plugins/contractor/contractor.vala:21
+msgid "Share your files with Contractor"
+msgstr "Zdieľajte vaše súbory cez Contractor"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:70
+msgid "Folders"
+msgstr "Priečinky"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:88
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:89
+msgid "Open a folder"
+msgstr "Otvoriť priečinok"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:94
+msgid "_Cancel"
+msgstr "_Zrušiť"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:95
+msgid "_Open"
+msgstr "_Otvoriť"
+
+#: ../plugins/folder-manager/FileView.vala:294
+msgid "Close Folder"
+msgstr "Zatvoriť priečinok"
+
+#: ../plugins/outline/OutlinePlugin.vala:21
+msgid "Outline"
+msgstr "Obrys"
+
+#: ../plugins/outline/OutlinePlugin.vala:22
+msgid "Outline symbols in your current file in vala"
+msgstr "Vyznačiť symboly v aktuálnom súbore vo vale"
+
+#: ../plugins/outline/OutlinePlugin.vala:111
+#: ../plugins/outline/CtagsSymbolResolver.vala:35
+#: ../plugins/outline/CtagsSymbolResolver.vala:68
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:21
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:94
+msgid "Symbols"
+msgstr "Symboly"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:21
+msgid "Brackets Completion"
+msgstr "Automatické ukončenie zátvorôk"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:22
+msgid "Complete brackets while typing"
+msgstr "Automaticky ukončovať zátvorky pri písaní"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:20
+#: ../plugins/source-tree/SourceTreePlugin.vala:197
+msgid "Source Tree"
+msgstr "Zdrojový strom"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:21
+msgid "Have a look at your sources organized in a nice tree"
+msgstr "Pozrite sa na svoje zdroje organizované v strome"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:42
+msgid "Loading..."
+msgstr "Načítava sa..."
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:175
+msgid "Bookmark"
+msgstr "Záložka"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:234
+msgid "Files"
+msgstr "Súbory"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:235
+msgid "Project"
+msgstr "Projekt"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:236
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:21
+msgid "Vim Emulation"
+msgstr "Emulácia Vim"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:22
+msgid "Use Vim commands in Scratch"
+msgstr "Použiť Vim príkazy v Scratch"
+
+#: ../plugins/pastebin/pastebin.vala:23
+msgid "Pastebin"
+msgstr "Kôš"
+
+#: ../plugins/pastebin/pastebin.vala:24
+msgid "Share files with pastebin service"
+msgstr "Zdieľať súbory v službe pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:134
+msgid "Upload to Pastebin"
+msgstr "Odoslať do pastebin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:254
+msgid "Share via PasteBin"
+msgstr "Zdieľať použitím PasteBin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:272
+msgid "Name:"
+msgstr "Meno:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:278
+msgid "Format: "
+msgstr "Formát: "
+
+#: ../plugins/pastebin/pastebin_dialog.vala:280
+msgid "Others..."
+msgstr "Iné..."
+
+#: ../plugins/pastebin/pastebin_dialog.vala:305
+msgid "Expiry time:"
+msgstr "Čas vypršania platnosti:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:310
+msgid "Keep this paste private"
+msgstr "Ponechať toto vloženie súkromné"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:312
+msgid "Upload"
+msgstr "Nahrať"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:342
+msgid "Other formats"
+msgstr "Iné formáty"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:511
+msgid "Never"
+msgstr "Nikdy"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:512
+msgid "Ten minutes"
+msgstr "Desať minút"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:513
+msgid "One hour"
+msgstr "Jedna hodina"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:514
+msgid "One day"
+msgstr "Jeden deň"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:515
+msgid "One month"
+msgstr "Jeden mesiac"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:18
+msgid "Strip trailing whitespace"
+msgstr "Odstrániť koncové medzery"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:19
+msgid "Strip trailing whitespace on save"
+msgstr "Odstrániť koncové medzery pri uložení"
+
+#: ../plugins/spell/spell.vala:18
+msgid "Spell Checker"
+msgstr "Kontrola pravopisu"
+
+#: ../plugins/spell/spell.vala:19
+msgid "Checks the spelling of your documents"
+msgstr "Kontrola pravopisu vašich dokumentov"
+
+#: ../plugins/open-with/open-with.vala:21
+msgid "Open With"
+msgstr "Otvoriť pomocou"
+
+#: ../plugins/open-with/open-with.vala:22
+msgid "Open files you are editing with another application"
+msgstr "Otvoriťsúbory, ktoré upravujete inou aplikáciou"
+
+#: ../plugins/open-with/open-with.vala:54
+msgid "Open With…"
+msgstr "Otvoriť s..."
+
+#: ../plugins/detect-indent/detect-indent.vala:1
+msgid "Detect Indent"
+msgstr "Zistiť odsadenie"
+
+#: ../plugins/detect-indent/detect-indent.vala:2
+msgid "Heuristically detect tab or space settings"
+msgstr "Zistiťnastavenia záražiek a medzier"
+
+#: ../plugins/terminal/terminal.vala:23 ../plugins/terminal/terminal.vala:116
+#: ../plugins/terminal/terminal.vala:125 ../plugins/terminal/terminal.vala:172
+#: ../plugins/terminal/terminal.vala:174
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../plugins/terminal/terminal.vala:24
+msgid "A terminal in your text editor"
+msgstr "Terminál vo vašom textovom editore"
+
+#: ../plugins/terminal/terminal.vala:167 ../plugins/terminal/terminal.vala:178
+msgid "Show Terminal"
+msgstr "Zobraziť terminál"
+
+#: ../plugins/terminal/terminal.vala:170
+msgid "Hide Terminal"
+msgstr "Skryť terminál"
+
+#: ../plugins/terminal/terminal.vala:306
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: ../plugins/terminal/terminal.vala:323
+msgid "Terminal on Right"
+msgstr "Terminál vpravo"
+
+#: ../plugins/terminal/terminal.vala:331
+msgid "Terminal on Bottom"
+msgstr "Terminál dole"
+
+#: ../plugins/word-completion/plugin.vala:34
+msgid "Words Completion"
+msgstr "Dokončovanie slov"
+
+#: ../plugins/word-completion/plugin.vala:35
+msgid "Show a completion dialog with most used words from your files"
+msgstr "Zobraziť dialógové okno s väčšinou používaných slov z vašich súborov"
+
+#: ../plugins/word-completion/plugin.vala:175
+msgid "%s - Word Completion"
+msgstr "Dokončovanie slova: %s"
+
+#: ../plugins/word-completion/completion-provider.vala:80
+msgid "Could not load icon theme: %s\n"
+msgstr "Nepodarilo sa načítať motív ikôn: %s\n"
+
+#~ msgid "Go to line..."
+#~ msgstr "Ísť na riadok..."
+
+#~ msgid "Find..."
+#~ msgstr "Nájsť..."
+
+#~ msgid "New document"
+#~ msgstr "Nový dokument"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Vytvoriť nový dokument zo šablóny"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argument pre set pluginov"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Dolní panel"
+
+#~ msgid "Status Bar"
+#~ msgstr "Stavová lišta"
+
+#~ msgid "Context View"
+#~ msgstr "Kontextové zobrazenie"
+
+#~ msgid "Sidebar"
+#~ msgstr "Bočný panel"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Vyberte novú lokáciu"
+
+#~ msgid "Create a new instance"
+#~ msgstr "Vytvoriť novú inštanciu"
+
+#~ msgid "No files are open."
+#~ msgstr "Nie sú otvorené žiadne súbory."
+
+#~ msgid "Normal text"
+#~ msgstr "Normální text"
+
+#~ msgid "Next Search"
+#~ msgstr "Ďalšie"
+
+#~ msgid "Previous Search"
+#~ msgstr "Predchádzajúci"
+
+#~ msgid "Save as"
+#~ msgstr "Uložiť ako"
+
+#~ msgid "Save the current file"
+#~ msgstr "Uložiť súčasný súbor"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Uložiť súčasný súbor pod iným menom"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Uložiť neuložené zmeny pred zatvorením?"
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "Nemôžete uložiť zmeny v:"
+
+#~ msgid "Do you want to save the changes to this file in a different location?"
+#~ msgstr "Chcete uložiť zmeny v tomto súbore na inom mieste?"
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Zmeny v tomto súbore neboli uložené."
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Chcete uložiť zmeny pred zatvorením tohoto súboru?"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Chcete to načítať znova?"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Chcete to vytvoriť znova?"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Zobraziť okraj napravo:"
+
+#~ msgid "Margin width:"
+#~ msgstr "Šírka okraja:"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Vytvoriť nový dokument v novej záložke"

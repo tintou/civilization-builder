@@ -1,0 +1,945 @@
+# Dutch translation for scratch
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the scratch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scratch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-18 13:57-0600\n"
+"PO-Revision-Date: 2015-12-21 13:38+0000\n"
+"Last-Translator: Mario Guerriero <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-22 04:50+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+"Language: nl\n"
+
+#: ../src/Scratch.vala:68
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Arnout https://launchpad.net/~arnout-van-eerde\n"
+"  Barend https://launchpad.net/~b-vanrijn\n"
+"  Ben https://launchpad.net/~bboy9000\n"
+"  Chris https://launchpad.net/~z-info-t\n"
+"  Christian Berkman https://launchpad.net/~christianberkman\n"
+"  Damion Gans https://launchpad.net/~damiongans\n"
+"  Davy https://launchpad.net/~ziplay123\n"
+"  Emiel Beinema https://launchpad.net/~emiel\n"
+"  Geoffrey De Belie https://launchpad.net/~computergeoffrey\n"
+"  Glennz nl https://launchpad.net/~glenn-de-groot\n"
+"  Jaap Broekhuizen https://launchpad.net/~jaapz-b\n"
+"  Jan Jacobs https://launchpad.net/~jhjacobs\n"
+"  Jeffrey Vandenborne https://launchpad.net/~vandenbornejeffrey\n"
+"  Jelle Licht https://launchpad.net/~wordempire\n"
+"  Lorian Coltof https://launchpad.net/~loriancoltof\n"
+"  Marc https://launchpad.net/~marchoving18\n"
+"  Mario Guerriero https://launchpad.net/~mefrio-g\n"
+"  Marvin Parlevliet https://launchpad.net/~mrvnp\n"
+"  Michel https://launchpad.net/~michel-s\n"
+"  Peter Nijssen https://launchpad.net/~ptnijssen\n"
+"  Pim Vullers https://launchpad.net/~pimvullers\n"
+"  Quinten Schelfhout https://launchpad.net/~quintenschelfhout\n"
+"  Rafael Fernandez https://launchpad.net/~thegoldenbox\n"
+"  Ramon Meffert https://launchpad.net/~ramon-meffert\n"
+"  Robin Prak https://launchpad.net/~stickabush\n"
+"  RobinJ https://launchpad.net/~robinj\n"
+"  Sander https://launchpad.net/~sander-vannielen\n"
+"  Simon B. https://launchpad.net/~simontje-bil\n"
+"  Steven Roose https://launchpad.net/~stevenroose\n"
+"  Sven Van Roosenbroek https://launchpad.net/~dotslasher\n"
+"  Thomas Berends https://launchpad.net/~thomasberends\n"
+"  Tim v Herpen https://launchpad.net/~timvherpen\n"
+"  Tuur Dutoit https://launchpad.net/~tuur-dutoit\n"
+"  ilya suttels https://launchpad.net/~ilya-suttels\n"
+"  ixium https://launchpad.net/~3-ubun9u-4"
+
+#: ../src/Scratch.vala:246
+msgid "New Tab"
+msgstr "Nieuwe tab"
+
+#: ../src/Scratch.vala:247 ../src/config.vala:18
+msgid "New Window"
+msgstr "Nieuw venster"
+
+#: ../src/Scratch.vala:248
+msgid "Print version info and exit"
+msgstr "Toon versie informatie en verlaat applicatie"
+
+#: ../src/Scratch.vala:249
+msgid "Set of plugins"
+msgstr "Pluginset"
+
+#: ../src/Scratch.vala:250
+msgid "Current working directory"
+msgstr "Huidige werkmap"
+
+#: ../src/config.vala:15
+msgid "Edit text files"
+msgstr "Bewerk tekstbestanden"
+
+#: ../src/config.vala:16
+msgid "Text Editor"
+msgstr "Tekstverwerker"
+
+#: ../src/config.vala:17 ../src/Services/Document.vala:405
+msgid "New Document"
+msgstr "Nieuw Document"
+
+#: ../src/config.vala:19
+msgid "About Scratch"
+msgstr "Over Scratch"
+
+#: ../src/Services/Document.vala:231
+msgid "Save changes to document %s before closing?"
+msgstr "Veranderingen in document %s opslaan alvorens het te sluiten?"
+
+#: ../src/Services/Document.vala:234
+msgid ""
+"If you don't save, changes from the last 4 seconds will be permanently lost."
+msgstr ""
+"Als je niet opslaat, zullen de wijzigingen van de laatste 4 seconden voor "
+"altijd verloren gaan."
+
+#: ../src/Services/Document.vala:236
+msgid "Close without saving"
+msgstr "Sluiten zonder opslaan"
+
+#: ../src/Services/Document.vala:240 ../src/Utils.vala:29
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: ../src/Services/Document.vala:241 ../src/Services/Document.vala:546
+#: ../src/Utils.vala:33 ../src/MainWindow.vala:897
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../src/Services/Document.vala:313
+msgid "Save File"
+msgstr "Bestand opslaan"
+
+#: ../src/Services/Document.vala:521
+msgid ""
+"File \"%s\" cannot be read. Maybe it is corrupt\n"
+"or you do not have the necessary permissions to read it."
+msgstr ""
+"Het bestand \"%s\" kan niet gelezen worden. Het bestand kan beschadigd zijn\n"
+"of u heeft niet de benodigde rechten om het te lezen."
+
+#: ../src/Services/Document.vala:537
+msgid ""
+"The location containing the file \"%s\" was unmounted. Do you want to save "
+"somewhere else?"
+msgstr ""
+"De locatie met het bestand \"%s\" werd ontkoppeld. Wilt u het bestand ergens "
+"anders opslaan?"
+
+#: ../src/Services/Document.vala:539 ../src/MainWindow.vala:901
+msgid "Save As…"
+msgstr "Opslaan als…"
+
+#: ../src/Services/Document.vala:544
+msgid "File \"%s\" was deleted. Do you want to save it anyway?"
+msgstr "Het bestand \"%s\" is verwijderd. Wilt u het alsnog opslaan?"
+
+#: ../src/Services/Document.vala:557
+msgid ""
+"You cannot save changes on file \"%s\". Do you want to save the changes to "
+"this file in a different location?"
+msgstr ""
+"U kunt de wijzigingen in het bestand \"%s\" niet opslaan. Wilt u een kopie "
+"van dit bestand opslaan op een andere locatie?"
+
+#: ../src/Services/Document.vala:559
+msgid "Save changes elsewhere"
+msgstr "Sla veranderingen ergens anders op"
+
+#: ../src/Services/Document.vala:590
+msgid ""
+"File \"%s\" was modified by an external application. Do you want to load it "
+"again or continue your editing?"
+msgstr ""
+"Het bestand \"%s\" is aangepast in een externe applicatie. Wilt u het "
+"bestand opnieuw laden of doorgaan met bewerken?"
+
+#: ../src/Services/Document.vala:591
+msgid "Load"
+msgstr "Laden"
+
+#: ../src/Services/Document.vala:594
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: ../src/Services/TemplateManager.vala:194 ../src/MainWindow.vala:905
+msgid "Templates"
+msgstr "Sjablonen"
+
+#: ../src/Widgets/DocumentView.vala:91
+msgid "Text file from "
+msgstr "Tekstbestand van "
+
+#: ../src/Widgets/SourceView.vala:120
+msgid "Syntax Highlighting"
+msgstr "Syntaxiskleuring"
+
+#: ../src/Widgets/SourceView.vala:131
+msgid "Normal Text"
+msgstr "Normale tekst"
+
+#: ../src/Widgets/LoadingView.vala:33
+msgid "Wait while restoring last session..."
+msgstr "Wacht terwijl de laatste sessie wordt hersteld..."
+
+#: ../src/Widgets/SearchManager.vala:70
+msgid "Find"
+msgstr "Zoek"
+
+#: ../src/Widgets/SearchManager.vala:75
+msgid "Replace With"
+msgstr "Vervangen met"
+
+#: ../src/Widgets/SearchManager.vala:91
+msgid "Search next"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:97
+msgid "Search previous"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:104
+msgid "Cyclic Search"
+msgstr ""
+
+#: ../src/Widgets/SearchManager.vala:107 ../src/MainWindow.vala:849
+#: ../src/MainWindow.vala:850
+msgid "Replace"
+msgstr "Vervang"
+
+#: ../src/Widgets/SearchManager.vala:112
+msgid "Replace all"
+msgstr "Vervang alles"
+
+#: ../src/Widgets/SearchManager.vala:121
+msgid "Go To Line:"
+msgstr "Ga naar lijn:"
+
+#: ../src/Widgets/ToolBar.vala:58
+msgid "Share"
+msgstr "Deel"
+
+#: ../src/Widgets/SplitView.vala:45
+msgid "No Files Open"
+msgstr "Geen bestanden geopend"
+
+#: ../src/Widgets/SplitView.vala:46
+msgid "Open a file to begin editing."
+msgstr "Open een bestand om te bewerken"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "New file"
+msgstr "Nieuw bestand"
+
+#: ../src/Widgets/SplitView.vala:50
+msgid "Create a new empty file."
+msgstr "Maak een nieuw leeg bestand."
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open file"
+msgstr "Bestand openen"
+
+#: ../src/Widgets/SplitView.vala:51
+msgid "Open a saved file."
+msgstr "Een opgeslagen bestand openen."
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "New file from clipboard"
+msgstr "Nieuw bestand vanuit het klembord"
+
+#: ../src/Widgets/SplitView.vala:52
+msgid "Create a new file from the contents of your clipboard."
+msgstr "Maak een nieuw bestand aan met de inhoud van het klembord"
+
+#: ../src/Dialogs/PreferencesDialog.vala:50 ../src/MainWindow.vala:909
+msgid "Preferences"
+msgstr "Instellingen"
+
+#: ../src/Dialogs/PreferencesDialog.vala:63
+msgid "Behavior"
+msgstr "Gedrag"
+
+#: ../src/Dialogs/PreferencesDialog.vala:66
+msgid "Interface"
+msgstr "Uiterlijk"
+
+#: ../src/Dialogs/PreferencesDialog.vala:79
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+#: ../src/Dialogs/PreferencesDialog.vala:83 ../src/MainWindow.vala:845
+#: ../src/MainWindow.vala:846
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../src/Dialogs/PreferencesDialog.vala:128
+msgid "Show welcome screen"
+msgstr "Laat welkomsscherm zien."
+
+#: ../src/Dialogs/PreferencesDialog.vala:129
+msgid "Show last open tabs"
+msgstr "Laat de laatst geopende tabbladen zien"
+
+#: ../src/Dialogs/PreferencesDialog.vala:145
+msgid "General:"
+msgstr "Algemeen:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:151
+msgid "When Scratch starts:"
+msgstr "Als Scratch start:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:154
+msgid "Save files when changed:"
+msgstr "Bestanden opslaan indien gewijzigd:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:158
+msgid "Tabs:"
+msgstr "Tabbladen:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:163
+msgid "Automatic indentation:"
+msgstr "Automatische inspringing"
+
+#: ../src/Dialogs/PreferencesDialog.vala:166
+msgid "Insert spaces instead of tabs:"
+msgstr "Spaties invoegen in plaats van tabs:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:170
+msgid "Tab width:"
+msgstr "Tabbreedte:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:195
+msgid "Editor:"
+msgstr "Editor:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:213
+msgid "Highlight current line:"
+msgstr "Markeer huidige regel:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:214
+msgid "Highlight matching brackets:"
+msgstr "Markeer overeenkomende haakjes:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:215
+msgid "Line wrap:"
+msgstr ""
+
+#: ../src/Dialogs/PreferencesDialog.vala:216
+msgid "Draw spaces:"
+msgstr "Teken spaties"
+
+#: ../src/Dialogs/PreferencesDialog.vala:217
+msgid "Show line numbers:"
+msgstr "Laat regelnummers zien:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:219
+msgid "Line width guide:"
+msgstr "Lijnbreedte bepaling:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:233
+msgid "Font and Color Scheme:"
+msgstr "Lettertype en kleurenschema:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:247
+msgid "Select font:"
+msgstr "Selecteer lettertype:"
+
+#: ../src/Dialogs/PreferencesDialog.vala:250
+msgid "Color scheme:"
+msgstr "Kleurenschema"
+
+#: ../src/Dialogs/PreferencesDialog.vala:255
+msgid "Custom font:"
+msgstr "Aangepast lettertype:"
+
+#: ../src/Utils.vala:31 ../src/MainWindow.vala:885
+#: ../plugins/filemanager/FileView.vala:230
+msgid "Open"
+msgstr "Openen"
+
+#: ../src/Utils.vala:42
+msgid "All files"
+msgstr "Alle bestanden"
+
+#: ../src/Utils.vala:45
+msgid "Text files"
+msgstr "Tekstbestanden"
+
+#: ../src/MainWindow.vala:97
+msgid "Zeitgeist Datasource for Scratch"
+msgstr "Zeitgeist-databron voor Scratch"
+
+#: ../src/MainWindow.vala:179
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: ../src/MainWindow.vala:662
+msgid "Open some files"
+msgstr "Open een paar bestanden"
+
+#: ../src/MainWindow.vala:771
+msgid "Hide search bar"
+msgstr "Verberg zoekbalk"
+
+#: ../src/MainWindow.vala:774 ../src/MainWindow.vala:938
+#: ../src/MainWindow.vala:939
+msgid "Find…"
+msgstr "Zoeken..."
+
+#: ../src/MainWindow.vala:837 ../src/MainWindow.vala:838
+msgid "Go to line…"
+msgstr "Ga naar regel..."
+
+#: ../src/MainWindow.vala:841 ../src/MainWindow.vala:842
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: ../src/MainWindow.vala:853
+msgid "Reopen closed document"
+msgstr "Heropen gesloten document"
+
+#: ../src/MainWindow.vala:854
+msgid "Open last closed document in a new tab"
+msgstr "Open laatst gesloten document in een nieuwe tab"
+
+#: ../src/MainWindow.vala:857
+msgid "Add New Tab"
+msgstr "Open nieuwe tab"
+
+#: ../src/MainWindow.vala:858
+msgid "Add a new tab"
+msgstr "Voeg een nieuwe tab toe"
+
+#: ../src/MainWindow.vala:861
+msgid "Add New View"
+msgstr "Voeg nieuwe weergave toe"
+
+#: ../src/MainWindow.vala:862
+msgid "Add a new view"
+msgstr "Nieuwe weergave toevoegen"
+
+#: ../src/MainWindow.vala:865
+msgid "Remove Current View"
+msgstr "Huidige weergave verwijderen"
+
+#: ../src/MainWindow.vala:866
+msgid "Remove this view"
+msgstr "Deze weergave verwijderen"
+
+#: ../src/MainWindow.vala:869
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: ../src/MainWindow.vala:870
+msgid "Undo the last action"
+msgstr "Laatste bewerking ongedaan maken"
+
+#: ../src/MainWindow.vala:873
+msgid "Redo"
+msgstr "Opnieuw uitvoeren"
+
+#: ../src/MainWindow.vala:874
+msgid "Redo the last undone action"
+msgstr "Laatste ongedaan gemaakte actie opnieuw uitvoeren"
+
+#: ../src/MainWindow.vala:877
+msgid "Revert"
+msgstr "Terugzetten"
+
+#: ../src/MainWindow.vala:878
+msgid "Restore this file"
+msgstr "Dit bestand herstellen"
+
+#: ../src/MainWindow.vala:881 ../src/MainWindow.vala:882
+msgid "Duplicate selected strings"
+msgstr "Geselecteerde regels dupliceren"
+
+#: ../src/MainWindow.vala:886
+msgid "Open a file"
+msgstr "Bestand openen"
+
+#: ../src/MainWindow.vala:889
+msgid "Clipboard"
+msgstr "Klembord"
+
+#: ../src/MainWindow.vala:890
+msgid "New file from Clipboard"
+msgstr "Nieuw bestand vanuit klembord"
+
+#: ../src/MainWindow.vala:893
+msgid "Zoom"
+msgstr "Vergroten/verkleinen"
+
+#: ../src/MainWindow.vala:894
+msgid "Zoom 1:1"
+msgstr "Schaal 1:1"
+
+#: ../src/MainWindow.vala:898
+msgid "Save this file"
+msgstr "Sla dit bestand op"
+
+#: ../src/MainWindow.vala:902
+msgid "Save this file with a different name"
+msgstr "Sla dit bestand op met een andere naam"
+
+#: ../src/MainWindow.vala:906
+msgid "Project templates"
+msgstr "Project sjablonen"
+
+#: ../src/MainWindow.vala:910
+msgid "Change Scratch settings"
+msgstr "Wijzig Scratch-instellingen"
+
+#: ../src/MainWindow.vala:913 ../src/MainWindow.vala:914
+msgid "Next Tab"
+msgstr "Volgende tab"
+
+#: ../src/MainWindow.vala:917 ../src/MainWindow.vala:918
+msgid "Previous Tab"
+msgstr "Vorige tab"
+
+#: ../src/MainWindow.vala:934 ../src/MainWindow.vala:935
+msgid "Fullscreen"
+msgstr "Volledig scherm"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:21
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:21
+msgid "Folder Manager"
+msgstr "Mapbeheerder"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:22
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:22
+msgid "Basic folder manager with file browsing"
+msgstr "Simpele bestandsverkenner"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:71
+msgid "Go to parent"
+msgstr "Naar bovenliggende map gaan"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:82
+msgid "Add file"
+msgstr "Voeg bestand toe"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:89
+msgid "Remove file"
+msgstr "Verwijder bestand"
+
+#: ../plugins/filemanager/FileManagerPlugin.vala:104
+msgid "File Manager"
+msgstr "Bestandsbeheerder"
+
+#: ../plugins/filemanager/FileView.vala:73
+msgid "/New File"
+msgstr "/Nieuw bestand"
+
+#: ../plugins/preserve-indent/preserve-indent.vala:24
+msgid "Preserve Indent"
+msgstr ""
+
+#: ../plugins/preserve-indent/preserve-indent.vala:25
+msgid "Maintains indent level of pasted text when auto-indent is active"
+msgstr ""
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:21
+msgid "Highlight Selected Words"
+msgstr "Markeer geselecteerde woorden"
+
+#: ../plugins/highlight-word-selection/highlight-word-selection.vala:22
+msgid "Highlights all occurrences of words that are selected"
+msgstr "Markeert het selecteerde woord overal waar het voorkomt"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:21
+#: ../plugins/clipboard-history/ClipboardHistory.vala:89
+msgid "Clipboard History"
+msgstr "Klembordgeschiedenis"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:22
+msgid "Clipboard to view history"
+msgstr "Klembord om geschiedenis te zien"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:28
+msgid "..."
+msgstr "..."
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:156
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../plugins/clipboard-history/ClipboardHistory.vala:159
+#: ../plugins/terminal/terminal.vala:313
+msgid "Paste"
+msgstr "Plakken"
+
+#: ../plugins/browser-preview/BrowserView.vala:49
+msgid "Close Inspector"
+msgstr "Inspector sluiten"
+
+#: ../plugins/browser-preview/browser-preview.vala:21
+msgid "Browser Preview"
+msgstr "Browservoorbeeld"
+
+#: ../plugins/browser-preview/browser-preview.vala:22
+msgid "Get a preview your work in a web page"
+msgstr "Krijg een voorbeeld van uw werk in een web pagina"
+
+#: ../plugins/browser-preview/browser-preview.vala:85
+#: ../plugins/browser-preview/browser-preview.vala:111
+msgid "Show Preview"
+msgstr "Toon voorbeeld"
+
+#: ../plugins/browser-preview/browser-preview.vala:107
+#: ../plugins/browser-preview/browser-preview.vala:150
+msgid "Web Preview"
+msgstr "Voorbeeld voor web"
+
+#: ../plugins/browser-preview/browser-preview.vala:108
+msgid "Hide Preview"
+msgstr "Voorbeeld verbergen"
+
+#: ../plugins/contractor/contractor.vala:21
+msgid "Share your files with Contractor"
+msgstr "Deel uw bestanden met Contractor"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:70
+msgid "Folders"
+msgstr "Mappen"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:88
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:89
+msgid "Open a folder"
+msgstr "Open een map"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:94
+msgid "_Cancel"
+msgstr "_Annuleer"
+
+#: ../plugins/folder-manager/FolderManagerPlugin.vala:95
+msgid "_Open"
+msgstr "_Open"
+
+#: ../plugins/folder-manager/FileView.vala:294
+msgid "Close Folder"
+msgstr "Sluit map"
+
+#: ../plugins/outline/OutlinePlugin.vala:21
+msgid "Outline"
+msgstr "Omlijning"
+
+#: ../plugins/outline/OutlinePlugin.vala:22
+msgid "Outline symbols in your current file in vala"
+msgstr "Omlijn symbolen in uw huidige vala-bestand"
+
+#: ../plugins/outline/OutlinePlugin.vala:111
+#: ../plugins/outline/CtagsSymbolResolver.vala:35
+#: ../plugins/outline/CtagsSymbolResolver.vala:68
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:21
+#: ../plugins/outline/ValaProcessing/SymbolOutline.vala:94
+msgid "Symbols"
+msgstr "Symbolen"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:21
+msgid "Brackets Completion"
+msgstr "Haakjes invoegen"
+
+#: ../plugins/brackets-completion/brackets-completion.vala:22
+msgid "Complete brackets while typing"
+msgstr "Haakjes invoegen tijdens het typen"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:20
+#: ../plugins/source-tree/SourceTreePlugin.vala:197
+msgid "Source Tree"
+msgstr "Bron"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:21
+msgid "Have a look at your sources organized in a nice tree"
+msgstr "Kijk naar je bronnen geörganiseerd in een boomstructuur"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:42
+msgid "Loading..."
+msgstr "Laden…"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:175
+msgid "Bookmark"
+msgstr "Bladwijzer"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:234
+msgid "Files"
+msgstr "Bestanden"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:235
+msgid "Project"
+msgstr "Project"
+
+#: ../plugins/source-tree/SourceTreePlugin.vala:236
+msgid "Bookmarks"
+msgstr "Bladwijzers"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:21
+msgid "Vim Emulation"
+msgstr "Vim Emulatie"
+
+#: ../plugins/vim-emulation/vim-emulation.vala:22
+msgid "Use Vim commands in Scratch"
+msgstr "Gebruik Vim commando's in Scratch"
+
+#: ../plugins/pastebin/pastebin.vala:23
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:24
+msgid "Share files with pastebin service"
+msgstr "Deel bestanden op Pastebin"
+
+#: ../plugins/pastebin/pastebin.vala:134
+msgid "Upload to Pastebin"
+msgstr "Uploaden naar Pastebin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:254
+msgid "Share via PasteBin"
+msgstr "Delen via PasteBin"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:272
+msgid "Name:"
+msgstr "Naam:"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:278
+msgid "Format: "
+msgstr "Format: "
+
+#: ../plugins/pastebin/pastebin_dialog.vala:280
+msgid "Others..."
+msgstr "Andere..."
+
+#: ../plugins/pastebin/pastebin_dialog.vala:305
+msgid "Expiry time:"
+msgstr "verstrijkingstijd"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:310
+msgid "Keep this paste private"
+msgstr "bewaar copie prive"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:312
+msgid "Upload"
+msgstr "Upload"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:342
+msgid "Other formats"
+msgstr "Andere stijlen"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:511
+msgid "Never"
+msgstr "Nooit"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:512
+msgid "Ten minutes"
+msgstr "Tien minuten"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:513
+msgid "One hour"
+msgstr "Een uur"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:514
+msgid "One day"
+msgstr "Eén dag"
+
+#: ../plugins/pastebin/pastebin_dialog.vala:515
+msgid "One month"
+msgstr "Eén maand"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:18
+msgid "Strip trailing whitespace"
+msgstr "Onnodige witruimte weghalen"
+
+#: ../plugins/strip-trailing-save/strip-trailing-save.vala:19
+msgid "Strip trailing whitespace on save"
+msgstr "Onnodige witruimte weghalen bij opslaan"
+
+#: ../plugins/spell/spell.vala:18
+msgid "Spell Checker"
+msgstr "Spellingscontrole"
+
+#: ../plugins/spell/spell.vala:19
+msgid "Checks the spelling of your documents"
+msgstr "Controleert de spelling van uw documenten"
+
+#: ../plugins/open-with/open-with.vala:21
+msgid "Open With"
+msgstr "Openen met"
+
+#: ../plugins/open-with/open-with.vala:22
+msgid "Open files you are editing with another application"
+msgstr "Open bestanden die u aan het bewerken bent met een andere applicatie"
+
+#: ../plugins/open-with/open-with.vala:54
+msgid "Open With…"
+msgstr ""
+
+#: ../plugins/detect-indent/detect-indent.vala:1
+msgid "Detect Indent"
+msgstr "Detecteer inspringing"
+
+#: ../plugins/detect-indent/detect-indent.vala:2
+msgid "Heuristically detect tab or space settings"
+msgstr "Detecteer tab of spatie instellingen"
+
+#: ../plugins/terminal/terminal.vala:23 ../plugins/terminal/terminal.vala:116
+#: ../plugins/terminal/terminal.vala:125 ../plugins/terminal/terminal.vala:172
+#: ../plugins/terminal/terminal.vala:174
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.vala:24
+msgid "A terminal in your text editor"
+msgstr "Een terminal in uw tekst bewerker"
+
+#: ../plugins/terminal/terminal.vala:167 ../plugins/terminal/terminal.vala:178
+msgid "Show Terminal"
+msgstr "Terminal weergeven"
+
+#: ../plugins/terminal/terminal.vala:170
+msgid "Hide Terminal"
+msgstr "Terminal verbergen"
+
+#: ../plugins/terminal/terminal.vala:306
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: ../plugins/terminal/terminal.vala:323
+msgid "Terminal on Right"
+msgstr "Terminal rechts"
+
+#: ../plugins/terminal/terminal.vala:331
+msgid "Terminal on Bottom"
+msgstr "Terminal onderaan"
+
+#: ../plugins/word-completion/plugin.vala:34
+msgid "Words Completion"
+msgstr "Woorden aanvullen"
+
+#: ../plugins/word-completion/plugin.vala:35
+msgid "Show a completion dialog with most used words from your files"
+msgstr ""
+"Laat een venster zien met de meest voorkomende woorden in uw bestanden"
+
+#: ../plugins/word-completion/plugin.vala:175
+msgid "%s - Word Completion"
+msgstr "%s - Woorden aanvullen"
+
+#: ../plugins/word-completion/completion-provider.vala:80
+msgid "Could not load icon theme: %s\n"
+msgstr "Kon pictogram thema niet laden: %s\n"
+
+#~ msgid "No files are open."
+#~ msgstr "Er zijn geen bestanden geopend."
+
+#~ msgid "Changes to this file haven't been saved."
+#~ msgstr "Wijzigingen aan dit bestand zijn niet opgeslagen"
+
+#~ msgid "Do you want to save changes before closing this file?"
+#~ msgstr "Wilt u de wijzigingen opslaan alvorens dit bestand te sluiten?"
+
+#~ msgid "Normal text"
+#~ msgstr "Normale tekst"
+
+#~ msgid "Save unsaved changes to file before closing?"
+#~ msgstr "Bestand opslaan voor het sluiten?"
+
+#~ msgid "New document"
+#~ msgstr "Nieuw document"
+
+#~ msgid "Do you want to reload it?"
+#~ msgstr "Wilt u het opnieuw te laden?"
+
+#~ msgid "Go to line..."
+#~ msgstr "Ga naar regel..."
+
+#~ msgid "Next Search"
+#~ msgstr "Volgende zoekopdracht"
+
+#~ msgid "Previous Search"
+#~ msgstr "Vorige zoekopdracht"
+
+#~ msgid "Save as"
+#~ msgstr "Opslaan als"
+
+#~ msgid "Save the current file"
+#~ msgstr "Huidige bestand opslaan"
+
+#~ msgid "Bottom Panel"
+#~ msgstr "Onderpaneel"
+
+#~ msgid "Status Bar"
+#~ msgstr "Statusbalk"
+
+#~ msgid "Sidebar"
+#~ msgstr "Zijpaneel"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Het huidige bestand opslaan onder een andere naam"
+
+#~ msgid "Show margin on right:"
+#~ msgstr "Toon de marge langs rechts"
+
+#~ msgid "Create a new document from a template"
+#~ msgstr "Maak een nieuw document op basis van een sjabloon"
+
+#~ msgid "Context View"
+#~ msgstr "Contextweergave"
+
+#~ msgid "Margin width:"
+#~ msgstr "Kantlijnbreedte:"
+
+#~ msgid "Find..."
+#~ msgstr "Zoeken..."
+
+#~ msgid "You can't save changes to:"
+#~ msgstr "U kan de wijzigingen niet opslaan naar:"
+
+#~ msgid "Do you want to save the changes to this file in a different location?"
+#~ msgstr ""
+#~ "Wilt u de veranderingen aan dit bestand opslaan in een andere locatie?"
+
+#~ msgid "Choose the new location"
+#~ msgstr "Kies de nieuwe locatie"
+
+#~ msgid "Do you want to create it again?"
+#~ msgstr "Wil je het opnieuw aanmaken?"
+
+#~ msgid "There are unsaved changes in Scratch!"
+#~ msgstr "Er zijn onopgeslagen instellingen in Scratch!"
+
+#~ msgid "Argument for the set of plugins"
+#~ msgstr "Argument voor de pluginset"
+
+#~ msgid "Create a new instance"
+#~ msgstr "Creëer een nieuwe instantie"
+
+#~ msgid "Create a new document in a new tab"
+#~ msgstr "Maak een nieuw document aan in een nieuw tabblad"
+
+#, c-format
+#~ msgid "Save unsaved changes to file %s before closing?"
+#~ msgstr "%s bevat onopgeslagen wijzigingen. Nu opslaan?"
+
+#~ msgid "There are unsaved changes!"
+#~ msgstr "Er zijn onopgeslagen veranderingen!"
+
+#, c-format
+#~ msgid "The file %s was modified."
+#~ msgstr "Bestand %s is aangepast."
+
+#, c-format
+#~ msgid "The file %s was deleted."
+#~ msgstr "Bestand %s is verwijderd"
