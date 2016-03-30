@@ -11,7 +11,7 @@ OPTIONS
 )
 # tranlation stuff
 
-add_executable (${EXEC_NAME} ${VALA_C})
+add_executable (${EXEC_NAME} ${VALA_C} ${GLIB_RESOURCES_TILES_C})
 target_link_libraries (${EXEC_NAME} ${DEPS_LIBRARIES})
 
 link_directories (${DEPS_LIBRARY_DIRS})

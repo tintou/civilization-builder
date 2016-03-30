@@ -38,10 +38,15 @@ find_package (PkgConfig)
 
 pkg_check_modules (DEPS REQUIRED ${PROG_DEPS})
 
-# Subdirectories
-add_subdirectory (src)
+# Translations
 add_subdirectory (po)
 
 # Data
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/scratch-text-editor.appdata.xml DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/appdata)
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/scratch-text-editor.desktop DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/applications)
+
+include (GResource)
+glib_compile_resources (GLIB_RESOURCES_TILES_C SOURCE data/tiles/tiles.gresource.xml)
+
+# Application
+add_subdirectory (src)
